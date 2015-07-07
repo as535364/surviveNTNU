@@ -62,6 +62,7 @@ footer {
       font-size: 1.5rem;
       border-radius: .5rem;
       text-decoration: none;
+      box-shadow: 0 2px 10px darken(#34E8D1, 20%);
 
       &:hover {
         background-color: lighten(#34E8D1, 20%);
