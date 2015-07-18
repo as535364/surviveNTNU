@@ -167,3 +167,54 @@ footer {
     }
   }
 }
+
+.page {
+  text-align: center;
+
+  .title {
+    padding: 5vh 0;
+
+    h2 {
+      color: #fff;
+      font-size: 2rem;
+      letter-spacing: .5rem;
+    }
+
+    hr {
+      width: 80px;
+      color: #fff;
+    }
+  }
+
+  article {
+    margin: 5vh auto 0;
+    padding: 2.5% 5%;
+    width: 90%;
+    background-color: rgba(255,255,255,0.75);
+
+    #bus {
+      table {
+        margin: 0 auto;
+        border-collapse: collapse;
+        border-spacing: 0px;
+
+        tr th, tr td {
+          padding: 1rem;
+          width: 10rem;
+          border: 1px solid #DDD;
+        }
+
+        tr th {
+          background-color: #F8F8F8;
+        }
+
+        tr td {
+          background-color: #ffffff;
+        }
+      }
+    }
+  }
+
+
+
+}
