@@ -2,40 +2,60 @@
 layout: default
 ---
 <div class="index">
-  <div>
-    <img src="{{ site.baseurl }}/images/students3.svg" alt="classroom icon" width="50" height="50"/>
-    <a href="#">教室租借</a>
+
+  <div class="slogan">
+    <p>
+      由學生建立、為學生設計的非官方師大生存手冊。
+    </p>
+    <div id="down_btn">開始閱讀</div>
   </div>
 
-  <div>
-    <img src="{{ site.baseurl }}/images/dumbbell7.svg" alt="sport icon" width="50" height="50"/>
-    <a href="#">運動場地租借</a>
-  </div>
 
-  <div>
-    <img src="{{ site.baseurl }}/images/medical107.svg" alt="clinic icon" width="50" height="50"/>
-    <a href="#">診所資訊</a>
-  </div>
+  <div class="select">
+    <div class="blue">
+      <img src="{{ site.baseurl }}/images/students3.svg" alt="classroom icon" width="50" height="50"/>
+      <a href="#">教室租借</a>
+    </div>
 
-  <div>
-    <img src="{{ site.baseurl }}/images/bus46.svg" alt="bus icon" width="50" height="50"/>
-    <a href="#">校車時間</a>
-  </div>
+    <div class="green">
+      <img src="{{ site.baseurl }}/images/dumbbell7.svg" alt="sport icon" width="50" height="50"/>
+      <a href="#">運動場地租借</a>
+    </div>
 
-  <div>
-    <img src="{{ site.baseurl }}/images/facebook29.svg" alt="facebook icon" width="50" height="50"/>
-    <a href="#">社群網站</a>
-  </div>
+    <div class="orange">
+      <img src="{{ site.baseurl }}/images/medical107.svg" alt="clinic icon" width="50" height="50"/>
+      <a href="#">診所資訊</a>
+    </div>
 
-  <div><img src="{{ site.baseurl }}/images/hardbound.svg" alt="facebook icon" width="50" height="50"/>
-    <a href="#">圖書館</a>
-  </div>
+    <div class="yellow">
+      <img src="{{ site.baseurl }}/images/bus46.svg" alt="bus icon" width="50" height="50"/>
+      <a href="#">校車時間</a>
+    </div>
 
-  <div><img src="{{ site.baseurl }}/images/itcenter.svg" alt="itcenter icon" width="50" height="50"/>
-    <a href="#">資訊中心資訊</a>
-  </div>
+    <div class="red">
+      <img src="{{ site.baseurl }}/images/facebook29.svg" alt="facebook icon" width="50" height="50"/>
+      <a href="#">社群網站</a>
+    </div>
 
-  <div><img src="{{ site.baseurl }}/images/link23.svg" alt="link icon" width="50" height="50"/>
-    <a href="#">常用連結</a>
+    <div class="purple"><img src="{{ site.baseurl }}/images/hardbound.svg" alt="facebook icon" width="50" height="50"/>
+      <a href="#">圖書館</a>
+    </div>
+
+    <div class="blue"><img src="{{ site.baseurl }}/images/itcenter.svg" alt="itcenter icon" width="50" height="50"/>
+      <a href="#">資訊中心資訊</a>
+    </div>
+
+    <div class="green"><img src="{{ site.baseurl }}/images/link23.svg" alt="link icon" width="50" height="50"/>
+      <a href="#">常用連結</a>
+    </div>
+
   </div>
 </div>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js" charset="utf-8"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("#down_btn").on('click',function(event) {
+     $("html, body").animate({scrollTop:645},400)
+    });
+  });
+</script>

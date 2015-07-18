@@ -37,9 +37,9 @@ header {
 }
 
 main {
-  padding: 12rem 0;
+  padding: 4rem 0 0;
   width: 100%;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.4);
   flex: 1;
 }
 
@@ -52,28 +52,91 @@ footer {
 }
 
 .index {
-  div {
-    display: inline-block;
-    margin: 1rem;
-    padding: 2.25rem 0 0;
-    background-color: #67c600;
-    box-shadow: 5px 5px 0 #666;
 
-    a {
-      display: block;
-      margin: 2.25rem 0 0;
-      padding: 2rem 1rem;
-      width: 13rem;
-      background-color: #5FB404;
+  .slogan {
+    display: block;
+    position: relative;
+    top: 30vh;
+    margin: 0;
+    padding: 0;
+    min-height: 85vh;
+    background-color: rgba(0,0,0,0);
+    color: #fff;
+    font-size: 2rem;
+    letter-spacing: .5rem;
+    box-shadow: none;
 
-      color: #fff;
-      line-height: 1.5rem;
+    #down_btn {
+      display: inline-block;
+      position: relative;
+      top: 3rem;
+      padding: .5rem 1rem;
+      letter-spacing: .5rem;
       font-size: 1.5rem;
-      text-align: left;
-      text-decoration: none;
+      border: 1px solid #fff;
+      cursor: pointer;
 
       &:hover {
+        background-color: #ffffff;
+        color: #AFC01C;
         transition-duration: .5s;
+      }
+    }
+  }
+
+  .select {
+    padding: 5rem 0;
+    background-color: #ffffff;
+
+    > div {
+      display: inline-block;
+      margin: 1rem;
+      padding: 2.25rem 0 0;
+      box-shadow: 5px 5px 0 #666;
+
+      &.orange {
+        background-color: #D76E2D;
+        a {background-color: #C16328;}
+      }
+
+      &.green {
+        background-color: #AFC01C;
+        a {background-color: #9DAC19;}
+      }
+
+      &.blue {
+        background-color: #50ADF2;
+        a {background-color: #489BD9;}
+      }
+
+      &.red {
+        background-color: #D14337;
+        a {background-color: #BC3C31;}
+      }
+
+      &.yellow {
+        background-color: #EDAE00;
+        a {background-color: #D59C00;}
+      }
+
+      &.purple {
+        background-color: #D14493;
+        a {background-color: #BC3D84;}
+      }
+
+      a {
+        display: block;
+        margin: 2.25rem 0 0;
+        padding: 2rem 1rem;
+        width: 13rem;color: #fff;
+        line-height: 1.5rem;
+        font-size: 1.5rem;
+        text-align: left;
+        text-decoration: none;
+
+        &:hover {
+          transition-duration: .5s;
+        }
       }
     }
   }
