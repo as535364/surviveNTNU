@@ -1,0 +1,220 @@
+---
+---
+
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: url('{{ site.baseurl }}/images/main-bg.jpg') fixed no-repeat center center;
+  background-size: cover;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  padding: 1rem 0;
+  width: 100%;
+  background: #121212;
+
+  text-align: left;
+
+  a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+
+    h1 {
+      margin: 0;
+      padding: .5rem 1rem;
+      font-size: 1.5rem;
+      display: inline-block;
+    }
+  }
+}
+
+main {
+  padding: 4rem 0 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.4);
+  flex: 1;
+}
+
+footer {
+    padding: 1rem 0;
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+
+      &:hover {text-decoration: underline;}
+    }
+}
+
+.index {
+    min-height: 85vh;
+
+  .slogan {
+    display: block;
+    position: relative;
+    top: 30vh;
+    margin: 0;
+    padding: 0;
+    height: 85vh;
+    min-height: 400px;
+    background-color: rgba(0,0,0,0);
+    color: #fff;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    letter-spacing: .5rem;
+    box-shadow: none;
+
+    @media screen and (max-width: 500px) {
+      // 如果使用者之視窗寬度小於 500px，將會載入這裡的 CSS。
+      top: 20vh;
+      padding: 0 1rem;
+      line-height: 2rem;
+      font-size: 1.5rem;
+    }
+
+
+    #down_btn {
+      display: inline-block;
+      position: relative;
+      top: 3rem;
+      padding: .5rem 1rem;
+      letter-spacing: .5rem;
+      font-size: 1.5rem;
+      border: 1px solid #fff;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #ffffff;
+        color: #AFC01C;
+        transition-duration: .5s;
+      }
+    }
+  }
+
+  .select {
+    padding: 1rem 0 5rem;
+    background-color: #ffffff;
+
+    hr {
+      margin: 20px auto 40px;
+      width: 80px;
+      font-weight: normal;
+      border: 1px solid #ccc;
+    }
+
+    > div {
+      display: inline-block;
+      margin: 1rem;
+      padding: 2.25rem 0 0;
+      box-shadow: 5px 5px 0 #666;
+
+      &.orange {
+        background-color: #D76E2D;
+        a {background-color: #C16328;}
+      }
+
+      &.green {
+        background-color: #AFC01C;
+        a {background-color: #9DAC19;}
+      }
+
+      &.blue {
+        background-color: #50ADF2;
+        a {background-color: #489BD9;}
+      }
+
+      &.red {
+        background-color: #D14337;
+        a {background-color: #BC3C31;}
+      }
+
+      &.yellow {
+        background-color: #EDAE00;
+        a {background-color: #D59C00;}
+      }
+
+      &.purple {
+        background-color: #D14493;
+        a {background-color: #BC3D84;}
+      }
+
+      a {
+        display: block;
+        margin: 2.25rem 0 0;
+        padding: 2rem 1rem;
+        width: 13rem;color: #fff;
+        line-height: 1.5rem;
+        font-size: 1.5rem;
+        text-align: left;
+        text-decoration: none;
+
+        &:hover {
+          transition-duration: .5s;
+        }
+      }
+    }
+  }
+}
+
+.page {
+  text-align: center;
+
+  .title {
+    padding: 5vh 0;
+
+    h2 {
+      color: #fff;
+      font-size: 2rem;
+      letter-spacing: .5rem;
+    }
+
+    hr {
+      width: 80px;
+      color: #fff;
+    }
+  }
+
+  article {
+    margin: 5vh auto 0;
+    padding: 2.5% 5%;
+    width: 90%;
+    background-color: rgba(255,255,255,0.75);
+
+    #bus {
+      table {
+        margin: 0 auto;
+        border-collapse: collapse;
+        border-spacing: 0px;
+
+        tr th, tr td {
+          padding: 1rem;
+          width: 10rem;
+          border: 1px solid #DDD;
+        }
+
+        tr th {
+          background-color: #F8F8F8;
+        }
+
+        tr td {
+          background-color: #ffffff;
+        }
+      }
+    }
+  }
+
+
+
+}
