@@ -6,84 +6,29 @@ permalink: /bus/
 id: bus
 ---
 
-<div>
-	<h3>下一班車：</h3>
-	<ul>
-		<li>
-			本部 → 公館：<span id="ben">10:30 (剩 14 分鐘)</time>
-		</li>
-		<li>
-			公館 → 本部：<span id="gung">10:45 (剩 29 分鐘)</span>
-		</li>
-	</ul>
-</div>
+<div markdown="1">
+### 下一班車
 
-<table>
-	<thead>
-		<tr>
-			<th align="center">本部 → 公館</th>
-			<th align="center">公館 → 本部</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td align="center">--</td>
-			<td align="center">7:40</td>
-		</tr>
-		<tr>
-			<td align="center">8:30</td>
-			<td align="center">8:45</td>
-		</tr>
-		<tr>
-			<td align="center">9:30</td>
-			<td align="center">9:30</td>
-		</tr>
-		<tr>
-			<td align="center">--</td>
-			<td align="center">9:55</td>
-		</tr>
-		<tr>
-			<td align="center">10:30</td>
-			<td align="center">10:45</td>
-		</tr>
-		<tr>
-			<td align="center">--</td>
-			<td align="center">11:45</td>
-		</tr>
-		<tr>
-			<td align="center">12:20</td>
-			<td align="center">12:15</td>
-		</tr>
-		<tr>
-			<td align="center">12:30</td>
-			<td align="center">12:45</td>
-		</tr>
-		<tr>
-			<td align="center">13:30</td>
-			<td align="center">13:45</td>
-		</tr>
-		<tr>
-			<td align="center">14:30</td>
-			<td align="center">14:45</td>
-		</tr>
-		<tr>
-			<td align="center">15:30</td>
-			<td align="center">15:45</td>
-		</tr>
-		<tr>
-			<td align="center">16:30</td>
-			<td align="center">16:45</td>
-		</tr>
-		<tr>
-			<td align="center">17:30</td>
-			<td align="center">17:45</td>
-		</tr>
-		<tr>
-			<td align="center">--</td>
-			<td align="center">18:20</td>
-		</tr>
-	</tbody>
-</table>
+- 本部 → 公館：<span id="ben">10:30 (剩 14 分鐘)</time>
+- 公館 → 本部：<span id="gung">10:45 (剩 29 分鐘)</span>
+
+
+本部 → 公館 | 公館 → 本部
+:----:|:----:
+--    |   7:40
+8:30  |   8:45
+9:30  |   9:30
+--    |   9:55
+10:30 |   10:45
+--    |   11:45
+12:20 |   12:15
+12:30 |   12:45
+13:30 |   13:45
+14:30 |   14:45
+15:30 |   15:45
+16:30 |   16:45
+17:30 |   17:45
+--    |   18:20
 
 
 <script type="text/javascript">
