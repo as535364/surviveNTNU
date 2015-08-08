@@ -10,7 +10,7 @@ permalink: /sport/
 
 ## 本部
 - 管理者：蔣明芸
-- 連絡電話：02-77343177
+- 連絡電話：`02-77343177`
 - [申請表連結](https://docs.google.com/forms/d/1t6y4H_FxsgYH46eHeqNueL5b0FzqDET9yJqA1xKjL_o/viewform)
 
 ### 綜合球場

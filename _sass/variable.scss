@@ -1,0 +1,30 @@
+$red-light: #FF5E3A;
+$red-deep: #FF2A68;
+
+$orange-light: #FF9300;
+$orange-deep: #FF6744;
+
+$yellow-light: #FFDB4B;
+$yellow-deep: #FFCD03;
+
+$green-light: #85FB6E;
+$green-deep: #0CD318;
+
+$blue-light: #52ECC8;
+$blue-deep: #5AC8FB;
+
+$purple-light: #EF4DB7;
+$purple-deep: #C849FC;
+
+// media query
+$s-sc: "screen and (max-width: 768px)";
+$m-sc: "screen and (min-width: 768px) and (max-width: 992px)";
+$l-sc: "screen and (min-width: 992px)";
+/* using:
+	@media #{$s-sc} {
+	}
+	@media #{$m-sc} {
+	}
+	@media #{$l-sc} {
+	}
+*/

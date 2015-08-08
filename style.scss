@@ -1,6 +1,9 @@
 ---
 ---
+
 @import url(http://fonts.googleapis.com/css?family=Raleway:300);
+@import "variable";
+
 body {
 	font-size: 16px;
 	margin: 0;
@@ -12,15 +15,17 @@ body {
 	min-height: 100vh;
 	flex-direction: column;
 }
+
 header {
 	position: absolute;
 	top: 0;
-	padding: 0.5rem 0;
-	width: 100%;
+	width: 99%;
+	padding: 0.5rem .5%;
 	background: #121212;
 	text-align: left;
 	a {
 		display: inline-block;
+		height: 50px;
 		color: #fff;
 		text-decoration: none;
 		h1 {
@@ -114,23 +119,23 @@ footer {
 			margin: 1rem;
 			padding: 2.25rem 0 0;
 			box-shadow: 5px 5px 0 #666;
-			&.orange {
-				background: linear-gradient(0deg, #FF6744 10%, #FF9300 90%);
-			}
-			&.green {
-				background: linear-gradient(0deg, #0CD318 10%, #85FB6E 90%);
-			}
-			&.blue {
-				background: linear-gradient(0deg, #5AC8FB 10%, #52ECC8 90%);
-			}
 			&.red {
-				background: linear-gradient(0deg, #FF2A68 10%, #FF5E3A 90%);
+				background: linear-gradient(0deg, $red-deep 10%, $red-light 90%);
+			}
+			&.orange {
+				background: linear-gradient(0deg, $orange-deep 10%, $orange-light 90%);
 			}
 			&.yellow {
-				background: linear-gradient(0deg, #FFCD03 10%, #FFDB4B 90%);
+				background: linear-gradient(0deg, $yellow-deep 10%, $yellow-light 90%);
+			}
+			&.green {
+				background: linear-gradient(0deg, $green-deep 10%, $green-light 90%);
+			}
+			&.blue {
+				background: linear-gradient(0deg, $blue-deep 10%, $blue-light 90%);
 			}
 			&.purple {
-				background: linear-gradient(0deg, #C849FC 10%, #EF4DB7 90%);
+				background: linear-gradient(0deg, $purple-deep 10%, $purple-light 90%);
 			}
 			a {
 				display: block;
@@ -203,6 +208,7 @@ footer {
 		a {
 			color: #00F1D7;
 			text-decoration: none;
+			text-shadow: 0 0 0 #ccc;
 
 			&:hover {
 				color: #2BFFB2;
@@ -211,7 +217,17 @@ footer {
 		}
 
 		code {
-
+			display: inline-block;
+			padding: 0 5px;
+			background-color: #F7F7F9;
+			color: #00F2D4;
+			text-shadow: 0 0 0 #ccc;
+			overflow: auto;
+			vertical-align: top;
+			font-size: 1rem;
+			font-family: "Monaco","Menlo","Consolas","Courier New","monospace";
+			border: 1px solid #E1E1E8;
+			border-radius: 3px;
 		}
 
 		ul, ol {
@@ -246,32 +262,28 @@ footer {
 					}
 				}
 			}
-
 		}
 
 		.cjk-list ol {
 			list-style-type: cjk-ideographic;
 		}
 
-		#bus {
-			table {
-				margin: 0 auto;
-				border-collapse: collapse;
-				border-spacing: 0;
-				tr th,
-				tr td {
-					padding: 1rem;
-					width: 10rem;
-					border: 1px solid #ddd;
-				}
-				tr th {
-					background-color: #f8f8f8;
-				}
-				tr td {
-					background-color: #fff;
-				}
+		table {
+			margin: 0 auto;
+			border-collapse: collapse;
+			border-spacing: 0;
+			tr th,
+			tr td {
+				padding: 1rem;
+				width: 10rem;
+				border: 1px solid #ddd;
+			}
+			tr th {
+				background-color: #f8f8f8;
+			}
+			tr td {
+				background-color: #fff;
 			}
 		}
-
 	}
 }
