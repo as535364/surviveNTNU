@@ -157,6 +157,7 @@ footer {
 			color: #fff;
 			font-size: 2rem;
 			letter-spacing: 0.5rem;
+			font-weight: 400;
 		}
 		hr {
 			width: 80px;
@@ -165,9 +166,93 @@ footer {
 	}
 	article {
 		margin: 5vh auto 0;
-		padding: 2.5% 5%;
-		width: 90%;
+		padding: 2.5% 7.5%;
+		width: 85%;
 		background-color: #fff;
+		color: #343434;
+		text-align: left;
+		font-size: 1.2rem;
+
+		h2 {
+			display: inline-block;
+			padding: .75rem 2rem;
+			font-size: 2rem;
+			letter-spacing: 0.5rem;
+			font-weight: 400;
+			border-top: 1px solid #000;
+			border-bottom: 1px solid #000;
+		}
+
+		h3 {
+			margin: 1rem 0;
+			font-size: 1.5rem;
+			font-weight: 400;
+
+			&::before {
+				content: "#";
+				margin-right: 1rem;
+				color: #aaa;
+			}
+		}
+
+		p {
+			margin: 1rem 0 2rem 2rem;
+			line-height: 1.75rem;
+		}
+
+		a {
+			color: #00F1D7;
+			text-decoration: none;
+
+			&:hover {
+				color: #2BFFB2;
+				text-decoration: underline;
+			}
+		}
+
+		code {
+
+		}
+
+		ul, ol {
+			max-width: 800px;
+			margin-left: 2rem;
+			padding: 0 2rem 2rem;
+
+			li {
+				line-height: 2rem;
+			}
+
+			&#markdown-toc {
+				float: right;
+				padding: 1rem 2rem;
+				margin: 0;
+				width: 250px;
+				text-align: left;
+				list-style-type: none;
+				border: 1px solid #343434;
+				box-shadow: 5px 5px 0 #666;
+
+				li {
+					a {
+						color: #00F3D0;
+						text-decoration: none;
+						line-height: 1.5rem;
+
+						&:hover {
+							color: #00FFA7;
+							transition-duration: .2s;
+						}
+					}
+				}
+			}
+
+		}
+
+		.cjk-list ol {
+			list-style-type: cjk-ideographic;
+		}
+
 		#bus {
 			table {
 				margin: 0 auto;
@@ -187,5 +272,6 @@ footer {
 				}
 			}
 		}
+
 	}
 }

@@ -5,9 +5,6 @@ icon: itcenter.svg
 permalink: /info-center/
 ---
 
-* TOC
-{:toc}
-
 ### 校園軟體下載/安裝
 
 打開學校首頁 → 行政組織 → 資訊中心(大概位於網站中間) → 軟體服務
@@ -29,7 +26,8 @@ permalink: /info-center/
 
 ★若是新生、休學復學生需於八月份後才可登入
 
-### 信箱([http://webmail.ntnu.edu.tw](http://webmail.ntnu.edu.tw))
+### 信箱
+- [http://webmail.ntnu.edu.tw](http://webmail.ntnu.edu.tw)
 
 申請：至師大信箱首頁→點選上方”申請帳號”→選擇您的身份
 
