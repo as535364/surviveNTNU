@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 圖書館手冊
-icon: facebook29.svg
+icon: hardbound.svg
 permalink: /lib/
 ---
 - [師大圖書館官網](http://www.lib.ntnu.edu.tw/)

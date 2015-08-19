@@ -72,7 +72,7 @@ footer {
 		top: 30vh;
 		margin: 0;
 		padding: 0;
-		height: 85vh;
+		height: 87.5vh;
 		min-height: 400px;
 		background-color: rgba(0,0,0,0);
 		color: #fff;
@@ -114,6 +114,11 @@ footer {
 	.select {
 		padding: 1rem 0 5rem;
 		background-color: #fff;
+
+		h2 {
+			color: #565656;
+		}
+
 		hr {
 			margin: 20px auto 40px;
 			width: 80px;
@@ -124,7 +129,8 @@ footer {
 			display: inline-block;
 			margin: 1rem;
 			padding: 2.25rem 0 0;
-			box-shadow: 5px 5px 0 #666;
+			border-radius: 10%;
+			box-shadow: 5px 5px 0 #ccc;
 			&.red {
 				background: linear-gradient(0deg, $red-deep 10%, $red-light 90%);
 			}
@@ -283,7 +289,7 @@ footer {
 		}
 
 		table {
-			margin: 0 auto;
+			margin-left: 2.5rem;
 			border-collapse: collapse;
 			border-spacing: 0;
 			tr th,

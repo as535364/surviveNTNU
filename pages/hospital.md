@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 醫療資訊
-icon: students3.svg
+icon: medical107.svg
 permalink: /hospital/
 ---
 ## 校本部附近醫療院所

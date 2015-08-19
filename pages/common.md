@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 常用連結
-icon: facebook29.svg
+icon: link23.svg
 permalink: /common/
 ---
 <img src="{{ site.baseurl }}/images/home63.svg" alt="師大首頁" width="23" height="23">  [師大首頁](http://www3.ntnu.edu.tw/)
