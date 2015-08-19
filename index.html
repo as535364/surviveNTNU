@@ -3,75 +3,83 @@ layout: default
 ---
 <div class="index">
 
-  <div class="slogan">
-    <p>
-      由學生建立、為學生設計的非官方師大生存手冊。
-    </p>
-    <div id="down_btn">開始閱讀</div>
-  </div>
+	<div class="slogan">
+		<p>
+			由學生建立、為學生設計的非官方師大生存手冊。
+		</p>
+		<div id="down_btn">開始閱讀</div>
+	</div>
 
-
-  <div id="lists" class="select">
-    <h2>你想尋求什麼協助？</h2>
-    <hr>
-    <div>
-      <img src="{{ site.baseurl }}/images/students3.svg" alt="classroom icon" width="50" height="50"/>
-      <a href="{{ site.baseurl }}/classroom/">教室租借</a>
+    <div class="news">
+        <a href="{{ site.baseurl}}/news/chooseClass/">野生的限時快訊：關於選課系統，有什麼是你需要知道的呢？</a>
     </div>
 
-    <div>
-      <img src="{{ site.baseurl }}/images/dumbbell7.svg" alt="sport icon" width="50" height="50"/>
-      <a href="{{ site.baseurl }}/sport/">運動場地租借</a>
-    </div>
+	<div id="lists" class="select">
+		<h2>你想尋求什麼協助？</h2>
+		<hr>
+		<div>
+			<img src="{{ site.baseurl }}/images/students3.svg" alt="classroom icon" width="50" height="50" />
+			<a href="{{ site.baseurl }}/classroom/">教室租借</a>
+		</div>
 
-    <div>
-      <img src="{{ site.baseurl }}/images/medical107.svg" alt="clinic icon" width="50" height="50"/>
-      <a href="{{ site.baseurl }}/hospital/">醫療資訊</a>
-    </div>
+		<div>
+			<img src="{{ site.baseurl }}/images/dumbbell7.svg" alt="sport icon" width="50" height="50" />
+			<a href="{{ site.baseurl }}/sport/">運動場地租借</a>
+		</div>
 
-    <div>
-      <img src="{{ site.baseurl }}/images/bus46.svg" alt="bus icon" width="50" height="50"/>
-      <a href="{{ site.baseurl }}/bus/">校車時間</a>
-    </div>
+		<div>
+			<img src="{{ site.baseurl }}/images/medical107.svg" alt="clinic icon" width="50" height="50" />
+			<a href="{{ site.baseurl }}/hospital/">醫療資訊</a>
+		</div>
 
-    <div>
-      <img src="{{ site.baseurl }}/images/facebook29.svg" alt="facebook icon" width="50" height="50"/>
-      <a href="{{ site.baseurl }}/facebook/">FB 社團、粉專</a>
-    </div>
+		<div>
+			<img src="{{ site.baseurl }}/images/bus46.svg" alt="bus icon" width="50" height="50" />
+			<a href="{{ site.baseurl }}/bus/">校車時間</a>
+		</div>
 
-    <div><img src="{{ site.baseurl }}/images/hardbound.svg" alt="facebook icon" width="50" height="50"/>
-      <a href="{{ site.baseurl }}/lib/">圖書館</a>
-    </div>
+		<div>
+			<img src="{{ site.baseurl }}/images/facebook29.svg" alt="facebook icon" width="50" height="50" />
+			<a href="{{ site.baseurl }}/facebook/">FB 社團、粉專</a>
+		</div>
 
-    <div><img src="{{ site.baseurl }}/images/itcenter.svg" alt="itcenter icon" width="50" height="50"/>
-      <a href="{{ site.baseurl }}/info-center/">資訊中心資訊</a>
-    </div>
+		<div>
+			<img src="{{ site.baseurl }}/images/hardbound.svg" alt="facebook icon" width="50" height="50" />
+			<a href="{{ site.baseurl }}/lib/">圖書館</a>
+		</div>
 
-    <div><img src="{{ site.baseurl }}/images/link23.svg" alt="link icon" width="50" height="50"/>
-      <a href="{{ site.baseurl }}/common/">常用連結</a>
-    </div>
+		<div>
+			<img src="{{ site.baseurl }}/images/itcenter.svg" alt="itcenter icon" width="50" height="50" />
+			<a href="{{ site.baseurl }}/info-center/">資訊中心資訊</a>
+		</div>
 
-  </div>
+		<div>
+			<img src="{{ site.baseurl }}/images/link23.svg" alt="link icon" width="50" height="50" />
+			<a href="{{ site.baseurl }}/common/">常用連結</a>
+		</div>
+
+	</div>
 </div>
 
 <script src="https://code.jquery.com/jquery-2.1.4.min.js" charset="utf-8"></script>
 <script type="text/javascript">
-  $(document).ready(function() {
+	$(document).ready(function() {
 
-    $("#down_btn").on('click',function(event) {
-     $("html, body").animate({scrollTop: $("#lists").offset().top}, 600)
-    });
+		$("#down_btn").on('click', function(event) {
+			$("html, body").animate({
+				scrollTop: $("#lists").offset().top
+			}, 600)
+		});
 
-    appendColor = function(){
+		appendColor = function() {
 
-      for (var i = 0; i < $("#lists > div").length; i++) {
+			for (var i = 0; i < $("#lists > div").length; i++) {
 
-        $("#lists > div")[i].className = ["red", "blue", "purple", "yellow", "green", "orange"] [Math.floor(Math.random() * 6)];
-        if(i > 0 && $("#lists > div")[i-1].className === $("#lists > div")[i].className) i--;
+				$("#lists > div")[i].className = ["red", "blue", "purple", "yellow", "green", "orange"][Math.floor(Math.random() * 6)];
+				if (i > 0 && $("#lists > div")[i - 1].className === $("#lists > div")[i].className) i--;
 
-      }
-    }()
+			}
+		}()
 
 
-  });
+	});
 </script>
