@@ -70,8 +70,8 @@ footer {
 		display: block;
 		position: relative;
 		top: 30vh;
-		margin: 0 0 260px;
-		padding: 0 0 27.5vh;
+		margin: 0 0 17.5rem;
+		padding: 0 2rem 27.5vh;
 		background-color: rgba(0,0,0,0);
 		color: #fff;
 		font-size: 2rem;
@@ -80,15 +80,14 @@ footer {
 		box-shadow: none;
 		@media #{$m-sc} {
 			top: 15vh;
+			margin: 0 0 400px;
 			padding: 0 1rem;
-    		height: 45vh;
 			line-height: 2rem;
 			font-size: 1.5rem;
 		}
 		@media #{$s-sc} {
-			top: 20vh;
-			padding: 0 1rem;
-    		height: 80vh;
+			top: 25vh;
+			margin: 0 0 15rem;
 			line-height: 2rem;
 			font-size: 1.5rem;
 		}
@@ -115,7 +114,7 @@ footer {
 
 		a {
 			display: block;
-			padding: 1rem 0;
+			padding: 1rem;
 			color: #fff;
 			font-size: 1.5rem;
 			text-decoration: none;
