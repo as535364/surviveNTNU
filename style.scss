@@ -217,12 +217,11 @@ footer {
 		}
 
 		a {
-			color: #00F1D7;
+			color: #0CD318;
 			text-decoration: none;
-			text-shadow: 0 0 0 #ccc;
 
 			&:hover {
-				color: #2BFFB2;
+				color: #85FB6E;
 				text-decoration: underline;
 			}
 		}
@@ -231,7 +230,7 @@ footer {
 			display: inline-block;
 			padding: 0 5px;
 			background-color: #F7F7F9;
-			color: #00F2D4;
+			color: #0CD318;
 			text-shadow: 0 0 0 #ccc;
 			overflow: auto;
 			vertical-align: top;
@@ -277,6 +276,10 @@ footer {
 
 		.cjk-list ol {
 			list-style-type: cjk-ideographic;
+		}
+
+		ol ol {
+			list-style-type: lower-alpha;
 		}
 
 		table {
