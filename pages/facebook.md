@@ -12,7 +12,7 @@ permalink: /facebook/
  | [教育學系](https://www.facebook.com/groups/415724461825736/?fref=ts)
 [教育心理與輔導學系](https://www.facebook.com/NTNUEPCSA?ref=ts&fref=ts) |
 [台師大社會教育學系](https://www.facebook.com/pages/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%B8%AB%E7%AF%84%E5%A4%A7%E5%AD%B8%E7%A4%BE%E6%9C%83%E6%95%99%E8%82%B2%E7%B3%BB%E5%AD%B8%E6%9C%83/323529984343384?fref=ts) |
- | [健康促進與衛生教育學系](https://www.facebook.com/groups/347357375353640/?ref=ts&fref=ts)
+[健康促進與衛生教育學系](https://www.facebook.com/ntnuhphe) | [健康促進與衛生教育學系](https://www.facebook.com/groups/272497349467701/)
 [人類發展與家庭學系](https://www.facebook.com/pages/%E8%87%BA%E5%B8%AB%E5%A4%A7%E4%BA%BA%E7%99%BC%E7%B3%BB%E5%AD%B8%E6%9C%83/355277207956020?ref=ts&fref=ts) |
 [公民教育與活動領導學系](https://www.facebook.com/ntnucivic?ref=ts&fref=ts) |
 [特殊教育學系](https://www.facebook.com/pages/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%B8%AB%E7%AF%84%E5%A4%A7%E5%AD%B8%E7%89%B9%E6%AE%8A%E6%95%99%E8%82%B2%E5%AD%B8%E7%B3%BB-Department-of-Special-Education-NTNU/563065507092130?ref=ts&fref=ts) | [特殊教育學系](https://www.facebook.com/groups/268969123118294/?ref=ts&fref=ts)
