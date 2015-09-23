@@ -1,75 +1,88 @@
 ---
 ---
+time_table =
+  "everyday":
+    "ben":
+      "8:30":   8*60+30
+      "9:30":   9*60+30
+      "10:30": 10*60+30
+      "12:40": 12*60+40
+      "13:40": 13*60+40
+      "14:40": 14*60+40
+      "15:40": 15*60+40
+      "16:40": 16*60+40
+      "17:40": 17*60+40
+      "NA":    99999999
+    "gung":
+      "6:50":   6*60+50
+      "7:50":   7*60+50
+      "8:50":   8*60+50
+      "10:00": 10*60+ 0
+      "12:00": 12*60+ 0
+      "12:25": 12*60+25
+      "13:00": 13*60+ 0
+      "14:00": 14*60+ 0
+      "15:00": 15*60+ 0
+      "16:00": 16*60+ 0
+      "17:00": 17*60+ 0
+      "18:00": 18*60+ 0
+      "NA":    99999999
+  "wednesday":
+    "ben":
+      "8:30":   8*60+30
+      "9:30":   9*60+30
+      "10:30": 10*60+30
+      "12:30": 12*60+30
+      "12:40": 12*60+40
+      "13:40": 13*60+40
+      "14:40": 14*60+40
+      "15:40": 15*60+40
+      "16:40": 16*60+40
+      "17:40": 17*60+40
+      "NA":    99999999
+    "gung":
+      "6:50":   6*60+50
+      "7:50":   7*60+50
+      "8:50":   8*60+50
+      "9:30":   9*60+30
+      "9:55":   9*60+55
+      "10:00": 10*60+ 0
+      "12:00": 12*60+ 0
+      "12:25": 12*60+25
+      "13:00": 13*60+ 0
+      "14:00": 14*60+ 0
+      "15:00": 15*60+ 0
+      "16:00": 16*60+ 0
+      "17:00": 17*60+ 0
+      "18:00": 18*60+ 0
+      "NA":    99999999
 
-today = new Date();
-
-# 若為週末
-if today.getDay() is 6 or today.getDay() is 7
-	document.getElementsByClassName("next")[0].innerHTML = "<b>假日不發車</b>"
-	document.getElementsByClassName("next")[1].innerHTML = "<b>假日不發車</b>"
-else
-	currentDateTime = today.getHours()+':'+today.getMinutes();
-	ben = document.getElementById("ben")
-
-	# 本部
-
-	if (today.getHours() > 18 or (today.getHours() > 17 && today.getMinutes() > 40))
-		ben.innerHTML = "<b>本部末班車已過</b>";
-
-	else if( today.getHours() < 8)
-		ben.innerHTML = "8:30（約剩下" + ( 8 - today.getHours()) + "小時）"
-
-	else if ((today.getHours() == 8 && today.getMinutes() < 30) )
-		ben.innerHTML = "8:30（剩下" + (30 - today.getMinutes()) + "分鐘）"
-
-	else
-		hour = today.getHours()
-		min = today.getMinutes()
-
-		if  hour < 12 or ( hour is 12 and  min < 31)
-		# 12:30 以前
-
-			if min < 30
-				ben.innerHTML = (hour + (if hour is 11 then 1 else 0)) + ":30（剩下" + (if hour is 11 then "1小時又" else "") + (30 - min) + "分鐘）"
-
-			else
-				ben.innerHTML = (hour + 1 + (if hour is 10 then 1 else 0)) + ":30（剩下" + (if hour is 10 then "1小時又" else "") + (90 - min) + "分鐘）"
-
-		else
-		# 12:30 以後
-
-			if min < 40
-				ben.innerHTML = hour + ":40（剩下" + (40 - min) + "分鐘）"
-
-			else
-				ben.innerHTML = (hour + 1) + ":40（剩下" + (100 - min) + "分鐘）"
-
-
-
-
-
-	# 公館
-	document.getElementById("gung").innerHTML = "<b>我有空再寫…</b>";
-
-	#
-	#
-	#
-	# /*  */
-	# if (today.getHours() > 18 || (today.getHours() > 18 && today.getMinutes() > 20))
-	# 	document.getElementById("gung").innerHTML = "<b>公館末班車已過</b>";
-	# else if( today.getHours() < 8)
-	# 	document.getElementById("gung").innerHTML = "7:45（約剩下" + ( 8 - today.getHours()) + "小時）";
-	# else if ((today.getHours() == 8 && today.getMinutes() < 45) )
-	# 	document.getElementById("gung").innerHTML = "7:45（剩下" + (45 - today.getMinutes()) + "分鐘）";
-	# else
-	# 	for (var i = 7; i < 17; i++)
-	# 		if ( today.getHours() === i && today.getMinutes() < 45 )
-	# 		{
-	# 			document.getElementById("gung").innerHTML = i + ":45（剩下" + (45 - today.getMinutes()) + "分鐘）";
-	# 			break;
-	# 		}
-	# 		else if( today.getHours() === i && today.getMinutes() >= 45)
-	# 		{
-	# 			document.getElementById("gung").innerHTML = (i+1) + ":45（剩下" + (105 - today.getMinutes()) + "分鐘）";
-	# 			break;
-	# 		}
+update_reminder = () ->
+  now_date = new Date()
+  now_day = now_date.getDay()
+  now_minutes = now_date.getHours()*60+now_date.getMinutes()
+  if now_day is 3
+    for campus, table of time_table["wednesday"]
+      for info, minutes of table
+        if now_minutes < minutes
+          in_hours = (minutes - now_minutes) // 60
+          in_minutes = (minutes - now_minutes) % 60
+          message = switch
+            when info is "NA" then "<b>本部末班車已過</b>"
+            when in_hours is 0 then "#{info}（剩下 #{in_minutes} 分鐘）"
+            else "#{info}（剩下 #{in_hours} 小時 #{in_minutes} 分鐘）"
+          document.getElementById(campus).innerHTML = message
+          break
+  else
+    for campus, table of time_table["everyday"]
+      for info, minutes of table
+        if now_minutes < minutes
+          in_hours = (minutes - now_minutes) // 60
+          in_minutes = (minutes - now_minutes) % 60
+          message = switch
+            when info is "NA" then "<b>本部末班車已過</b>"
+            when in_hours is 0 then "（剩下 #{in_minutes} 分鐘）"
+            else "（剩下 #{in_hours} 小時 #{in_minutes} 分鐘）"
+          document.getElementById(campus).innerHTML = message
+          break
+setInterval(update_reminder(), 1000*60*10);
