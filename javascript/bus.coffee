@@ -69,8 +69,8 @@ update_reminder = () ->
         in_minutes = (minutes - now_minutes) % 60
         message = switch
           when info is "NA" then "<b>本部末班車已過</b>"
-          when in_hours is 0 then "#{info}（剩下 #{in_minutes} 分鐘）"
-          else "#{info}（剩下 #{in_hours} 小時 #{in_minutes} 分鐘）"
+          when in_hours is 0 then "#{info}<br>【剩下 #{in_minutes} 分鐘】"
+          else "#{info}<br>【剩下 #{in_hours} 小時 #{in_minutes} 分鐘】"
         document.getElementById(campus).innerHTML = message
         break
 setInterval(update_reminder(), 1000*60*10);
