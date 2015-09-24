@@ -61,28 +61,16 @@ update_reminder = () ->
   now_date = new Date()
   now_day = now_date.getDay()
   now_minutes = now_date.getHours()*60+now_date.getMinutes()
-  if now_day is 3
-    for campus, table of time_table["wednesday"]
-      for info, minutes of table
-        if now_minutes < minutes
-          in_hours = (minutes - now_minutes) // 60
-          in_minutes = (minutes - now_minutes) % 60
-          message = switch
-            when info is "NA" then "<b>本部末班車已過</b>"
-            when in_hours is 0 then "#{info}（剩下 #{in_minutes} 分鐘）"
-            else "#{info}（剩下 #{in_hours} 小時 #{in_minutes} 分鐘）"
-          document.getElementById(campus).innerHTML = message
-          break
-  else
-    for campus, table of time_table["everyday"]
-      for info, minutes of table
-        if now_minutes < minutes
-          in_hours = (minutes - now_minutes) // 60
-          in_minutes = (minutes - now_minutes) % 60
-          message = switch
-            when info is "NA" then "<b>本部末班車已過</b>"
-            when in_hours is 0 then "（剩下 #{in_minutes} 分鐘）"
-            else "（剩下 #{in_hours} 小時 #{in_minutes} 分鐘）"
-          document.getElementById(campus).innerHTML = message
-          break
+  today_table = if now_day is 3 then time_table["wednesday"] else time_table["everyday"]
+  for campus, table of today_table
+    for info, minutes of table
+      if now_minutes < minutes
+        in_hours = (minutes - now_minutes) // 60
+        in_minutes = (minutes - now_minutes) % 60
+        message = switch
+          when info is "NA" then "<b>本部末班車已過</b>"
+          when in_hours is 0 then "#{info}（剩下 #{in_minutes} 分鐘）"
+          else "#{info}（剩下 #{in_hours} 小時 #{in_minutes} 分鐘）"
+        document.getElementById(campus).innerHTML = message
+        break
 setInterval(update_reminder(), 1000*60*10);
