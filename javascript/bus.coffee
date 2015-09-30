@@ -62,6 +62,9 @@ update_reminder = () ->
   now_day = now_date.getDay()
   now_minutes = now_date.getHours()*60+now_date.getMinutes()
   today_table = if now_day is 3 then time_table["wednesday"] else time_table["everyday"]
+  if now_day isnt 3
+    nlst = document.querySelectorAll(".bus-table span.wednesday_only")
+    nlst[i].innerHTML = "—" for i in [0...nlst.length]
   for campus, table of today_table
     for info, minutes of table
       if now_minutes < minutes
@@ -72,8 +75,6 @@ update_reminder = () ->
           when in_hours is 0 then "#{info}<br>【剩下 #{in_minutes} 分鐘】"
           else "#{info}<br>【剩下 #{in_hours} 小時 #{in_minutes} 分鐘】"
         document.getElementById(campus).innerHTML = message
-        if now_day isnt 3
-            document.querySelector(".bus-table span").innerHTML = "---"
         break
 
 setInterval(update_reminder(), 1000*60*10)
