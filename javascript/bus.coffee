@@ -72,5 +72,8 @@ update_reminder = () ->
           when in_hours is 0 then "#{info}<br>【剩下 #{in_minutes} 分鐘】"
           else "#{info}<br>【剩下 #{in_hours} 小時 #{in_minutes} 分鐘】"
         document.getElementById(campus).innerHTML = message
+        if now_day isnt 3
+            document.querySelector(".bus-table span").innerHTML = "---"
         break
-setInterval(update_reminder(), 1000*60*10);
+
+setInterval(update_reminder(), 1000*60*10)
