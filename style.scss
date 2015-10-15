@@ -323,7 +323,6 @@ footer {
 		}
 
 		table {
-			margin-left: 2.5rem;
 			border-collapse: collapse;
 			border-spacing: 0;
 
@@ -387,6 +386,15 @@ footer {
 				}
 			}
 		}
+	}
+}
+
+#disqus_thread {
+	margin-top: 4rem;
+	border-top: 3px dashed #ccc;
+	padding: 3rem 2.5rem 2.5rem;
+	@media #{$s-sc} {
+		padding: 2rem 1rem 1rem;
 	}
 }
 
