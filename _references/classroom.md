@@ -1,8 +1,8 @@
 ---
-layout: page
-title: 教室租借
-icon: students3.svg
-permalink: /classroom/
+layout:  page
+title:   教室租借
+icon:    students3.svg
+alticon: classroom
 ---
 ## 場地租借
  師大有很多空間有對個人、社團、甚至是校外人士提供場地，根據場地、租用時間、租借單位有著不同的的規定，這邊簡單將大家常用的師大本部及綜合大樓教室租用辦法跟大家介紹一下。

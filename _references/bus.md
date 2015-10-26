@@ -1,9 +1,9 @@
 ---
-layout: page
-title: 校車時間
-icon: bus46.svg
-permalink: /bus/
-id: bus
+layout:  page
+title:   校車時間
+icon:    bus46.svg
+alticon: bus
+id:      bus
 ---
 
 ### 下一班車

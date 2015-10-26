@@ -1,8 +1,8 @@
 ---
-layout: page
-title: 資訊中心相關資訊
-icon: itcenter.svg
-permalink: /info-center/
+layout:  page
+title:   資訊中心相關資訊
+icon:    itcenter.svg
+alticon: itcenter
 ---
 ###校園軟體下載/安裝
 

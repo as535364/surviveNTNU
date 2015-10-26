@@ -3,3 +3,7 @@ baseurl: ""
 markdown: kramdown
 redcarpet:
     extensions: ["tables"]
+collections:
+  references:
+    output: true
+    permalink: /:path/

@@ -1,8 +1,8 @@
 ---
-layout: page
-title: 醫療資訊
-icon: medical107.svg
-permalink: /hospital/
+layout:  page
+title:   醫療資訊
+icon:    medical107.svg
+alticon: clinic
 ---
 ## 校本部附近醫療院所
 

@@ -1,8 +1,8 @@
 ---
-layout: page
-title: FB 社團、粉專
-icon: facebook29.svg
-permalink: /facebook/
+layout:  page
+title:   FB 社團、粉專
+icon:    facebook29.svg
+alticon: facebook
 ---
 # 學系
 ## 教育學院
