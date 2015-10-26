@@ -15,6 +15,11 @@ layout: default
     </div>
 
 	<div id="lists" class="select">
+		<h2>lorem</h2>
+		{% for link in site.fav_links %}
+			<img src="/images/{{ link[1]["image"] }}" alt="{{ link[0] }}" width="23" height="23">
+			<a href="{{ link[1]["link"] }}">{{ link[0] }}</a>
+		{% endfor %}
 		<h2>你想尋求什麼協助？</h2>
 		<hr>
 		{% for page in site.references %}
