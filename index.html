@@ -11,11 +11,6 @@ layout: default
 	</div>
 
 	<div id="lists" class="select">
-		<h2>lorem</h2>
-		{% for link in site.fav_links %}
-			<img src="/images/{{ link[1]["image"] }}" alt="{{ link[0] }}" width="23" height="23">
-			<a href="{{ link[1]["link"] }}">{{ link[0] }}</a>
-		{% endfor %}
 		<h2>你想尋求什麼協助？</h2>
 		<hr>
 		{% for page in site.references %}
@@ -23,6 +18,19 @@ layout: default
 			<a href="{{ page.url }}">
 				<img src="/images/{{ page.icon }}" alt="{{ page.alticon}} icon" width="50" height="50" />
 				{{ page.title }}
+			</a>
+		</div>
+		{% endfor %}
+	</div>
+
+	<div id="favs" class="select">
+		<h2>常用連結</h2>
+		<hr>
+		{% for item in site.data.favs %}
+		<div>
+			<a href="{{ item.link }}">
+				<img src="/images/{{ item.image }}" alt="{{ item.name }}的 icon" width="50" height="50" >
+				{{ item.name }}
 			</a>
 		</div>
 		{% endfor %}
@@ -35,16 +43,16 @@ layout: default
 
 		$("#down_btn").on('click', function(event) {
 			$("html, body").animate({
-				scrollTop: $("#lists").offset().top
+				scrollTop: $(".select").offset().top
 			}, 600)
 		});
 
 		appendColor = function() {
 
-			for (var i = 0; i < $("#lists > div").length; i++) {
+			for (var i = 0; i < $(".select > div").length; i++) {
 
-				$("#lists > div")[i].className = ["red", "blue", "purple", "yellow", "green", "orange"][Math.floor(Math.random() * 6)];
-				if (i > 0 && $("#lists > div")[i - 1].className === $("#lists > div")[i].className) i--;
+				$(".select > div")[i].className = ["red", "blue", "purple", "yellow", "green", "orange"][Math.floor(Math.random() * 6)];
+				if (i > 0 && $(".select > div")[i - 1].className === $(".select > div")[i].className) i--;
 
 			}
 		}()

@@ -1,0 +1,42 @@
+[
+	{
+		"name": "師大",
+		"link": "http://www3.ntnu.edu.tw/",
+		"image": "home63.svg"
+	},
+	{
+		"name": "選課",
+		"link": "http://www.ntnu.edu.tw/aa/courseweb.html",
+		"image": "pen38.svg"
+	},
+	{
+		"name": "圖書館",
+		"link": "http://www.lib.ntnu.edu.tw/",
+		"image": "living1.svg"
+	},
+	{
+		"name": "信箱",
+		"link": "https://webmail.ntnu.edu.tw/cgi-bin/owmmdir2/openwebmail.pl",
+		"image": "mail59.svg"
+	},
+	{
+		"name": "校務行政系統",
+		"link": "http://iportal.ntnu.edu.tw/ntnu/",
+		"image": "manager3.svg"
+	},
+	{
+		"name": "Moodle",
+		"link": "http://moodle.ntnu.edu.tw/",
+		"image": "users81.svg"
+	},
+	{
+		"name": "Moodle2",
+		"link": "https://moodle2.ntnu.edu.tw/",
+		"image": "users81.svg"
+	},
+	{
+		"name": "馬上辦",
+		"link": "http://www2.ntnu.edu.tw/portal/MSB/",
+		"image": "manager3.svg"
+	}
+]
