@@ -8,3 +8,6 @@ collections:
   references:
     output: true
     permalink: /:path/
+  archive:
+    output: true
+    permalink: /:path/
