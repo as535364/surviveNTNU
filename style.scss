@@ -145,6 +145,12 @@ footer {
 					content: " <<<";
 				}
 			}
+			
+			a {
+				display: inline;
+				&:hover::before { content: "";}
+				&:hover::after { content: "";}
+			}
 		}
 	}
 	
