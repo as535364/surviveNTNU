@@ -147,62 +147,68 @@ footer {
 			}
 		}
 	}
-
-	.select {
-		padding: 1rem 0 5rem;
+	
+	.container {
 		background-color: #fff;
+		padding: 1rem 0 5rem;
+		text-align: center;
+		
+		.select {
+			margin: 0 auto;
+			max-width: 1400px;
 
-		h2 {
-			color: #565656;
-		}
+			h2 {
+				color: #565656;
+			}
 
-		hr {
-			margin: 20px auto 40px;
-			width: 80px;
-			font-weight: normal;
-			border: 1px solid #ccc;
-		}
-		> div {
-			display: inline-block;
-			margin: 1rem;
-			padding: 0;
-			border-radius: 10%;
-			box-shadow: 5px 5px 0 #ccc;
-			&.red {
-				background: linear-gradient(0deg, $red-deep 10%, $red-light 90%);
+			hr {
+				margin: 20px auto 40px;
+				width: 80px;
+				font-weight: normal;
+				border: 1px solid #ccc;
 			}
-			&.orange {
-				background: linear-gradient(0deg, $orange-deep 10%, $orange-light 90%);
-			}
-			&.yellow {
-				background: linear-gradient(0deg, $yellow-deep 10%, $yellow-light 90%);
-			}
-			&.green {
-				background: linear-gradient(0deg, $green-deep 10%, $green-light 90%);
-			}
-			&.blue {
-				background: linear-gradient(0deg, $blue-deep 10%, $blue-light 90%);
-			}
-			&.purple {
-				background: linear-gradient(0deg, $purple-deep 10%, $purple-light 90%);
-			}
-			a {
-				display: block;
-				margin: 0;
-				padding: 2rem 1rem;
-				width: 13rem;
-				color: #fff;
-				line-height: 1.5rem;
-				font-size: 1.5rem;
-				text-align: left;
-				text-decoration: none;
-				&:hover {
-					transition-duration: 0.5s;
+			> div {
+				display: inline-block;
+				margin: 1rem;
+				padding: 0;
+				border-radius: 10%;
+				box-shadow: 5px 5px 0 #ccc;
+				&.red {
+					background: linear-gradient(0deg, $red-deep 10%, $red-light 90%);
 				}
-				img {
+				&.orange {
+					background: linear-gradient(0deg, $orange-deep 10%, $orange-light 90%);
+				}
+				&.yellow {
+					background: linear-gradient(0deg, $yellow-deep 10%, $yellow-light 90%);
+				}
+				&.green {
+					background: linear-gradient(0deg, $green-deep 10%, $green-light 90%);
+				}
+				&.blue {
+					background: linear-gradient(0deg, $blue-deep 10%, $blue-light 90%);
+				}
+				&.purple {
+					background: linear-gradient(0deg, $purple-deep 10%, $purple-light 90%);
+				}
+				a {
 					display: block;
-					margin: .5rem auto 4rem;
-					text-align: center;
+					margin: 0;
+					padding: 2rem 1rem;
+					width: 13rem;
+					color: #fff;
+					line-height: 1.5rem;
+					font-size: 1.5rem;
+					text-align: left;
+					text-decoration: none;
+					&:hover {
+						transition-duration: 0.5s;
+					}
+					img {
+						display: block;
+						margin: .5rem auto 4rem;
+						text-align: center;
+					}
 				}
 			}
 		}

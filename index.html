@@ -14,31 +14,33 @@ layout: default
 		<!-- 替換 anchor tag -->
         <a id="protip">123</a>
     </div>
-
-	<div id="lists" class="select">
-		<h2>你想尋求什麼協助？</h2>
-		<hr>
-		{% for page in site.references %}
-		<div>
-			<a href="{{ page.url }}">
-				<img src="/images/{{ page.icon }}" alt="{{ page.alticon}} icon" width="50" height="50" />
-				{{ page.title }}
-			</a>
+	<div class="container">
+		<div id="lists" class="select">
+			<h2>你想尋求什麼協助？</h2>
+			<hr>
+			{% for page in site.references %}
+			<div>
+				<a href="{{ page.url }}">
+					<img src="/images/{{ page.icon }}" alt="{{ page.alticon}} icon" width="50" height="50" />
+					{{ page.title }}
+				</a>
+			</div>
+			{% endfor %}
 		</div>
-		{% endfor %}
 	</div>
-
-	<div id="favs" class="select">
-		<h2>常用連結</h2>
-		<hr>
-		{% for item in site.data.favs %}
-		<div>
-			<a href="{{ item.link }}">
-				<img src="/images/{{ item.image }}" alt="{{ item.name }}的 icon" width="50" height="50" >
-				{{ item.name }}
-			</a>
+	<div class="container">
+		<div id="favs" class="select">
+			<h2>常用連結</h2>
+			<hr>
+			{% for item in site.data.favs %}
+			<div>
+				<a href="{{ item.link }}">
+					<img src="/images/{{ item.image }}" alt="{{ item.name }}的 icon" width="50" height="50" >
+					{{ item.name }}
+				</a>
+			</div>
+			{% endfor %}
 		</div>
-		{% endfor %}
 	</div>
 </div>
 
