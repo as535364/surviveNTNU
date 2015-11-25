@@ -130,7 +130,7 @@ footer {
 	.news {
 		background: linear-gradient(90deg, $red-deep 10%, $red-light 90%);
 
-		a {
+		> a {
 			display: block;
 			padding: 1rem;
 			color: #fff;
