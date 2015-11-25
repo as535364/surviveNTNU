@@ -148,8 +148,9 @@ footer {
 			
 			a {
 				display: inline;
-				&:hover::before { content: "";}
-				&:hover::after { content: "";}
+				color: #fff;
+				font-size: 1.5rem;
+				text-decoration: none;
 			}
 		}
 	}
