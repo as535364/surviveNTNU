@@ -1,36 +1,11 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<meta charset="utf-8"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link href="{{ site.baseurl }}/style.css" rel="stylesheet"/>
-		<title>{{ page.title }}{% if page.title %} &mdash; {% endif %}{{site.title}}</title>
-		<meta property="og:url" content="http://survive.coursentnu.com/"/>
-		<meta property="og:image" content="http://survive.coursentnu.com/images/og_logo.png"/>
-		<meta property="og:title" content="Survive NTNU"/>
-		<meta property="og:description" content="非官方師大生存手冊"/>
-		<link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
-		<link rel="icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
-		<link rel="author" href="/humans.txt"/>
-		<script src="/javascript/ga.js"></script>
-	</head>
+	{% include head.html %}
 	<body>
-		<header>
-			<a href="{{ site.baseurl }}/">
-				<h1><img src="{{ site.baseurl }}/images/logo.png" alt="site-logo" height="50px" width="50px" /><div>{{site.title}}</div></h1>
-			</a>
-		</header>
+		{% include header.html %}
 		<main>
 			{{ content }}
 		</main>
-		<footer>
-			<ul>
-				<li><a href="https://www.facebook.com/CommunityNTNU">Facebook</a></li>
-				<li><a href="https://github.com/communityNTNU">GitHub</a></li>
-				<li><a href="http://rexy.xyz/surviveNTNU-info/">關於</a></li>
-				<li><a href="{{ site.baseurl }}/archive/">封存文章</a></li>
-			</ul>
-			<!-- 「回報問題」、「加入」待補。 -->
-		</footer>
+		{% include footer.html %}
 	</body>
 </html>
