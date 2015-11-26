@@ -23,6 +23,3 @@
   Language: Chinese
   Components: Jekyll
   Host: GitHub Pages
-
-/* NOTE */
-  
