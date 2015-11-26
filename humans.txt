@@ -1,0 +1,28 @@
+/* TEAM */
+  Dev: Rex Yuan (@RexYuan)
+  Site: rexy.xyz
+  Location: Taipei
+
+  Dev: Wildsky Fann (@wi1d5ky)
+  Site: wildsky.cc
+  Location: Taipei
+
+  Editor: 朱翊文 (@WilliamSnail)
+  Location: Taipei
+
+/* THANKS */
+  教室租借, 食物地圖: 張勝閎 (@joey6504)
+  標誌設計, 攝影: 蔡沛方 (@aliyatsai)
+  各學系 FB 社團、粉專: 林于文 (@linyuwen)
+  轉學生疑難排解: 黃昱翔 (@a602041117)
+  資訊中心相關資訊, 選課系統技術問題: 陳昱安 (@chuan06310631)
+  醫療資訊: 王至恩
+
+/* SITE */
+  Standards: HTML5
+  Language: Chinese
+  Components: Jekyll
+  Host: GitHub Pages
+
+/* NOTE */
+  
