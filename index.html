@@ -15,12 +15,14 @@ layout: default
 			<h2>你想尋求什麼協助？</h2>
 			<hr>
 			{% for page in site.references %}
-			<div>
-				<a href="{{ page.url }}">
-					<img src="/images/{{ page.icon }}" alt="{{ page.alticon}} icon" width="50" height="50" />
-					{{ page.title }}
-				</a>
-			</div>
+				{% if page.hide != true %}
+				<div>
+					<a href="{{ page.url }}">
+						<img src="/images/{{ page.icon }}" alt="{{ page.alticon}} icon" width="50" height="50" />
+						{{ page.title }}
+					</a>
+				</div>
+				{% endif %}
 			{% endfor %}
 		</div>
 	</div>

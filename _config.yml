@@ -11,3 +11,15 @@ collections:
   archive:
     output: true
     permalink: /:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "references"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "archive"
+    values:
+      layout: "page"
