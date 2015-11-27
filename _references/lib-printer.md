@@ -33,26 +33,26 @@ A4、B4                   ||| A3                      ||
 #### 影印教學
 
 1. 準備（良好狀況的）一百元鈔票到 3 樓的複印區
-![1](http://i.imgur.com/5VjUByR.png)
+<img src="http://i.imgur.com/5VjUByR.png" alt="1" width="900">
 2. 找到這個影印卡自動販賣機並購買影印卡
-![2](http://i.imgur.com/R8ZBqfX.jpg)
+<img src="http://i.imgur.com/R8ZBqfX.jpg" alt="2" width="900">
 3. 你現在應該有一張長這樣的影印卡
-![3](http://i.imgur.com/tZeJKRv.jpg)
+<img src="http://i.imgur.com/tZeJKRv.jpg" alt="3" width="900">
 4. 帶上你要印的東西並找一台影印機
-![4](http://i.imgur.com/ESDMM61.jpg)
+<img src="http://i.imgur.com/ESDMM61.jpg" alt="4" width="900">
 5. 插入影印卡
-![5](http://i.imgur.com/xRzN8u8.jpg)
+<img src="http://i.imgur.com/xRzN8u8.jpg" alt="5" width="900">
 6. 你可以在螢幕上看到你的餘額
-![6](http://i.imgur.com/rJDmfqK.jpg)
+<img src="http://i.imgur.com/rJDmfqK.jpg" alt="6" width="900">
 7. 放好你的東西，然後選擇你的影印方式，如果不確定就直接按綠色的按鈕讓全部都自動決定（黑白）
-![7](http://i.imgur.com/OtvuHl8.jpg)
+<img src="http://i.imgur.com/OtvuHl8.jpg" alt="7" width="900">
 8. 從下面拿出印出來的資料
-![8](http://i.imgur.com/Xdfghre.jpg)
+<img src="http://i.imgur.com/Xdfghre.jpg" alt="8" width="900">
 9. 按下紅色的按鈕並拿回你的影印卡，大功告成！
-![9](http://i.imgur.com/fDPmynT.jpg)
+<img src="http://i.imgur.com/fDPmynT.jpg" alt="9" width="900">
 
 ### 711
 
-### 師大粽大
+### 師大綜大
 
 ## 公館
