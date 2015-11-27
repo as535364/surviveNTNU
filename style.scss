@@ -145,7 +145,7 @@ footer {
 					content: " <<<";
 				}
 			}
-			
+
 			a {
 				display: inline;
 				color: #fff;
@@ -154,12 +154,12 @@ footer {
 			}
 		}
 	}
-	
+
 	.container {
 		background-color: #fff;
 		padding: 1rem 0 5rem;
 		text-align: center;
-		
+
 		.select {
 			margin: 0 auto;
 			max-width: 1400px;
@@ -433,14 +433,23 @@ footer {
 	.small-hide {
 		display: none;
 	}
+	.rf-img {
+		width: 300px;
+	}
 }
 @media #{$m-sc} {
 	.small-hide {
 		display: none;
 	}
+	.rf-img {
+		width: 900px;
+	}
 }
 @media #{$l-sc} {
 	.big-hide {
 		display: none;
+	}
+	.rf-img {
+		width: 900px;
 	}
 }
