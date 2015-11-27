@@ -4,6 +4,7 @@ title:   校車時間
 icon:    bus46.svg
 alticon: bus
 id:      bus
+scripts: [bus]
 ---
 
 ### 下一班車
@@ -44,5 +45,3 @@ id:      bus
 	 ---   |    18:00   |
 
 </div>
-
-<script src="{{site.baseurl}}/javascript/bus.js"></script>

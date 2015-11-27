@@ -11,4 +11,7 @@
     <link rel="icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
     <link rel="author" href="/humans.txt"/>
     <script src="/javascript/ga.js"></script>
+    {% for s in page.scripts %}
+    <script src="/javascript/{{ s }}.js" defer></script>
+    {% endfor %}
 </head>
