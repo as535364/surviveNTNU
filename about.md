@@ -16,7 +16,7 @@ scripts: [get-reference-issues]
 
 剩下的事項跟其他的等等問題，我們都會放在 [GitHub 上的 Issues](https://github.com/communityNTNU/surviveNTNU/issues)。如果你想要幫忙寫攻略，可以到我們的 [GitHub 上的 Wiki](https://github.com/communityNTNU/surviveNTNU/wiki) 開個頁面－如果你不知道那是什麼碗糕，也懶得研究，也可以直接[用 Facebook 傳給我們](https://www.facebook.com/CommunityNTNU/)。
 
-師大生存手冊是一個[開源](http://www.inside.com.tw/2014/07/21/coscup14)的專案，每個人都可以作出貢獻，不管貢獻程度是大還是小。如果你是懂設計或是美術，或也是整天摸電腦的人，歡迎來我們的 GitHub 上看看，或是有什麼想幫忙的，也可以直接用[ Facebook 告訴我們](https://www.facebook.com/CommunityNTNU/)！
+師大生存手冊是一個[開源](http://www.inside.com.tw/2014/07/21/coscup14)的專案，每個人都可以作出貢獻，不管貢獻程度是大還是小。如果你是懂設計或是美術、了解如何宣傳跟行銷、或也是整天摸電腦的人，歡迎來我們的 GitHub 上看看，或是有什麼想幫忙的，也可以直接用[ Facebook 告訴我們](https://www.facebook.com/CommunityNTNU/)！
 
 ## 發現問題？
 如果你發現資料哪裡有出錯，可以直接[到 GitHub 上開 Issue](https://github.com/communityNTNU/surviveNTNU/issues) 或是[用 Facebook 傳訊息給我們](https://www.facebook.com/CommunityNTNU/)，記得說明是哪裡出問題喔！
