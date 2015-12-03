@@ -1,8 +1,8 @@
 ---
 layout:  page
 title:   交通資訊
-icon:    bus46.svg #我沒以拉...
-alticon: but #我沒以拉...
+icon:    bus46.svg
+alticon: bus
 id:      transport
 ---
 
