@@ -21,12 +21,12 @@
 	},
 	{
 		"name": "校務行政系統",
-		"link": "http://iportal.ntnu.edu.tw/ntnu/",
+		"link": "https://iportal.ntnu.edu.tw/ntnu/",
 		"image": "manager3.svg"
 	},
 	{
 		"name": "Moodle",
-		"link": "http://moodle.ntnu.edu.tw/",
+		"link": "https://moodle.ntnu.edu.tw/",
 		"image": "users81.svg"
 	},
 	{
