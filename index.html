@@ -19,11 +19,7 @@ scripts: [protip]
 				{% if page.hide != true %}
 				<div>
 					<a href="{{ page.url }}">
-                        {% if page.fa %}
-                        <i class="fa {{ page.fa }}"></i>
-                        {% elsif page.icon %}
 						<img src="/images/{{ page.icon }}" alt="{{ page.alticon}} icon" width="50" height="50" />
-                        {% endif %}
                         {{ page.title }}
 					</a>
 				</div>
