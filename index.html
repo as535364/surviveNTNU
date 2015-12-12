@@ -5,12 +5,13 @@ scripts: [protip]
 <div class="index">
 
 	<div class="slogan">
-		<p>
-			由學生建立、為學生設計的非官方師大生存手冊。
-		</p>
+		<p>由學生建立、為學生設計的非官方師大生存手冊。</p>
 		<div id="down_btn">開始閱讀</div>
 	</div>
-	{% include highlight-banner.html %}
+	
+	<!-- 名字應該更廣泛一點 因為這邊不一定是新聞 -->
+	<div class="news" id="highlight-banner"></div>
+
 	<div class="container">
 		<div id="lists" class="select">
 			<h2>你想尋求什麼協助？</h2>
@@ -44,24 +45,16 @@ scripts: [protip]
 </div>
 
 <script type="text/javascript">
-	$(document).ready(function() {
-
-		$("#down_btn").on('click', function(event) {
-			$("html, body").animate({
-				scrollTop: $(".select").offset().top
-			}, 600)
-		});
-
-		appendColor = function() {
-
-			for (var i = 0; i < $(".select > div").length; i++) {
-
-				$(".select > div")[i].className = ["red", "blue", "purple", "yellow", "green", "orange"][Math.floor(Math.random() * 6)];
-				if (i > 0 && $(".select > div")[i - 1].className === $(".select > div")[i].className) i--;
-
+	$(document).ready(() => {
+		$("#down_btn").on('click', (event) =>
+			$("html, body").animate({scrollTop: $(".select").offset().top}, 600)
+		);
+		colors = ["red", "blue", "purple", "yellow", "green", "orange"];
+		$(".select > div").toArray().forEach( (div, i, divs) => {
+			do {
+				div.className = colors[Math.floor(Math.random() * 6)];
 			}
-		}()
-
-
+			while(i > 0 && div.className === divs[i-1].className)
+		});
 	});
 </script>
