@@ -59,7 +59,7 @@ A.6:請至[國立台灣師範大學  校園軟體服務](http://140.122.65.193/s
 
 Q.7:學校圖書館有什麼資源?我要如何使用?
 
-A.7:可以至SurvivalNTNU的「[圖書館](http://survive.coursentnu.com/lib/)」篇章快速取得所需的資訊。
+A.7:可以至SurvivalNTNU的「[圖書館](/lib/)」篇章快速取得所需的資訊。
 
 學校詳細選課說明可詳閱此文件:
 http://www.ntnu.edu.tw/aa/file/grad_webcourse_1.pdf
