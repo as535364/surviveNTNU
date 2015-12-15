@@ -57,29 +57,32 @@ footer {
 	text-align: center;
 	color: #fff;
 
-	ul li {
-		display: inline-block;
+	ul {
 		padding: 0;
-		margin: 0 .25rem;
+		
+		li {
+			display: inline-block;
+			padding: 0;
+			margin: 0 .25rem;
 
-		&::before {
-			content: '-';
-			margin-right: .5rem;
-		}
+			&::before {
+				content: '-';
+				margin-right: .5rem;
+			}
 
-		&:last-child::after {
-			content: '-';
-			margin-left: .5rem;
-		}
+			&:last-child::after {
+				content: '-';
+				margin-left: .5rem;
+			}
 
-		a {
-			color: #fff;
-			text-decoration: none;
-			&:hover {
-				text-decoration: underline;
+			a {
+				color: #fff;
+				text-decoration: none;
+				&:hover {
+					text-decoration: underline;
+				}
 			}
 		}
-
 	}
 }
 .index {
