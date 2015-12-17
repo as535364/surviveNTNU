@@ -10,14 +10,12 @@ alticon: /sport/
 
 ## 本部
 - 管理者：蔣明芸
-- 連絡電話：`02-77343177`
-- [申請表連結](https://docs.google.com/forms/d/1t6y4H_FxsgYH46eHeqNueL5b0FzqDET9yJqA1xKjL_o/viewform)
+- 連絡電話：02-77343177
+- [申請表](https://docs.google.com/forms/d/1t6y4H_FxsgYH46eHeqNueL5b0FzqDET9yJqA1xKjL_o/viewform)
 
 ### 綜合球場
 - 位置：體育館四樓
 - 規格：43.2m x 35.1m（459坪）
-
-<!--- 綜合球場的設備：-->
 
 ### 大韻律房
 - 位置：體育館一樓
@@ -31,8 +29,6 @@ alticon: /sport/
 - 位置：體育館一樓
 - 規格：40.5m x 21.6m（265坪）
 
-<!--- 體操館的設備 -->
-
 ### 桌球室
 - 位置：體育館地下一樓<br/>
 - 設備：12張球桌
@@ -45,8 +41,6 @@ alticon: /sport/
 ### 重量訓練室
 - 位置：體育館地下一樓
 - 規格：18.9m x 16.2m（93坪）
-
-<!--- 重量訓練室的設備 -->
 
 ### 田徑場
 - 位置：室外
@@ -101,15 +95,6 @@ alticon: /sport/
 - 設備：2個標準紅土場
 - 規格：18.9m x 16.2m（93坪）
 
-
-## 參考資料
+## 連結
 1. [師大體育室：場地租借](http://www.phr.ntnu.edu.tw/place1/property.php?class=101)
-2. [坪數計算機](http://annion.kingbig.idv.tw/tool/?p=329)
-3. [國立臺灣師範大學體育室教職員生場地借用申請表](https://docs.google.com/forms/d/1t6y4H_FxsgYH46eHeqNueL5b0FzqDET9yJqA1xKjL_o/viewform)（原以iframe嵌入網頁）
-
-## ISSUES
-
-1. 本部排球場列在申請表上卻沒列在網頁上？
-2. 02-77343173體育室場地組 電話要放場地組的還是管理人的？
-3. What's up with 分部的？商業化經營？學生能借嗎？
-4. 如何處理google日曆？
+2. [國立臺灣師範大學體育室教職員生場地借用申請表](https://docs.google.com/forms/d/1t6y4H_FxsgYH46eHeqNueL5b0FzqDET9yJqA1xKjL_o/viewform)
