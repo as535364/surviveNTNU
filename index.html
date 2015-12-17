@@ -8,7 +8,7 @@ scripts: [protip]
 		<p>由學生建立、為學生設計的非官方師大生存手冊。</p>
 		<div id="down_btn">開始閱讀</div>
 	</div>
-	
+
 	<!-- 名字應該更廣泛一點 因為這邊不一定是新聞 -->
 	<div class="news" id="highlight-banner"></div>
 
@@ -50,7 +50,7 @@ scripts: [protip]
 			$("html, body").animate({scrollTop: $(".select").offset().top}, 600);
 		});
 		colors = ["red", "blue", "purple", "yellow", "green", "orange"];
-		$(".select > div").toArray().forEach( (div, i, divs) {
+		$(".select > div").toArray().forEach( function(div, i, divs) {
 			do {
 				div.className = colors[Math.floor(Math.random() * 6)];
 			}
