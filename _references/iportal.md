@@ -1,6 +1,6 @@
 ---
 title: 校務行政系統
-hide: true
+maintenance: true
 ---
 
 ### 如何查詢學期成績？

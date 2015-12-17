@@ -4,7 +4,7 @@ title:   停車
 icon:    foo
 alticon: foo
 id:      foo
-hide:    true
+maintenance:    true
 ---
 
 // 加上機車、腳踏車等停車資訊

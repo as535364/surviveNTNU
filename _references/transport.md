@@ -4,7 +4,7 @@ title:   交通
 icon:    bus46.svg
 alticon: bus
 id:      transport
-hide:    true
+maintenance: true
 ---
 
 ## 校車
