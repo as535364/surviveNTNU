@@ -45,12 +45,12 @@ scripts: [protip]
 </div>
 
 <script type="text/javascript">
-	$(document).ready(() => {
-		$("#down_btn").on('click', (event) =>
-			$("html, body").animate({scrollTop: $(".select").offset().top}, 600)
-		);
+	$(document).ready(function() {
+		$("#down_btn").on('click', function(event) {
+			$("html, body").animate({scrollTop: $(".select").offset().top}, 600);
+		});
 		colors = ["red", "blue", "purple", "yellow", "green", "orange"];
-		$(".select > div").toArray().forEach( (div, i, divs) => {
+		$(".select > div").toArray().forEach( (div, i, divs) {
 			do {
 				div.className = colors[Math.floor(Math.random() * 6)];
 			}
