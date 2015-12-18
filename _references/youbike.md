@@ -11,11 +11,13 @@ homepage: true
 
 ## 臺灣師範大學(圖書館)站
 
+<div id="yb_lib_i"></div>
 * 車數：<span id="yb_lib_sbi"></span>
 * 空位：<span id="yb_lib_bemp"></span>
 
 ## 師範大學公館校區
 
+<div id="yb_gg_i"></div>
 * 車數：<span id="yb_gg_sbi"></span>
 * 空位：<span id="yb_gg_bemp"></span>
 

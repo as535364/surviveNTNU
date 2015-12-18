@@ -31,6 +31,11 @@ $.getJSON("https://crossorigin.me/http://data.taipei/youbike", function(data) {
     ":"+lib.mday.substring(12, 14);
     $("#yb_mday").html(time)
 
+    var available = '<i style="color:green;" class="fa fa-bicycle"></i>';
+    var empty = '<i style="color:gray;" class="fa fa-bicycle"></i>';
+    var lib_icons = available.repeat(parseInt(lib.sbi, 10)) + empty.repeat(parseInt(lib.bemp, 10));
+    var gg_icons = available.repeat(parseInt(gg.sbi, 10)) + empty.repeat(parseInt(gg.bemp, 10));
+
     if (lib.act != 1) {
         $("#yb_lib_sbi").html("暫停運作中");
         $("#yb_lib_bemp").html("暫停運作中");
@@ -38,6 +43,7 @@ $.getJSON("https://crossorigin.me/http://data.taipei/youbike", function(data) {
     else {
         $("#yb_lib_sbi").html(lib.sbi);
         $("#yb_lib_bemp").html(lib.bemp);
+        $("#yb_lib_i").html(lib_icons);
     }
 
     if (gg.act != 1) {
@@ -47,6 +53,6 @@ $.getJSON("https://crossorigin.me/http://data.taipei/youbike", function(data) {
     else {
         $("#yb_gg_sbi").html(gg.sbi);
         $("#yb_gg_bemp").html(gg.bemp);
+        $("#yb_gg_i").html(gg_icons);
     }
-
 });
