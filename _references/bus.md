@@ -9,7 +9,7 @@ scripts: [bus]
 
 ### 下一班車
 
-- 本部 → 公館：<span id="ben" class="next">-</time>
+- 本部 → 公館：<span id="ben" class="next">-</span>
 - 公館 → 本部：<span id="gung" class="next">-</span>
 
 <div class="bus-table small-hide" markdown="block">
