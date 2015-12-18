@@ -3,6 +3,7 @@ layout:  page
 title:   資訊中心服務
 icon:    itcenter.svg
 alticon: itcenter
+homepage: false
 ---
 
 ### 校園軟體下載/安裝

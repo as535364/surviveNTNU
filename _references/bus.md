@@ -4,6 +4,7 @@ title:   校車時間
 icon:    bus46.svg
 alticon: bus
 id:      bus
+homepage: true
 scripts: [bus]
 ---
 

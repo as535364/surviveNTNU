@@ -3,6 +3,7 @@ layout:  page
 title:   FB 社團、粉專
 icon:    facebook29.svg
 alticon: facebook
+homepage: false
 ---
 # 學系
 

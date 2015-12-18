@@ -3,6 +3,7 @@ layout:  page
 title:   圖書館手冊
 icon:    hardbound.svg
 alticon: facebook
+homepage: false
 ---
 - [師大圖書館官網](http://www.lib.ntnu.edu.tw/)
 

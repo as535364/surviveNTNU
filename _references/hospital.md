@@ -3,6 +3,7 @@ layout:  page
 title:   醫療資訊
 icon:    medical107.svg
 alticon: clinic
+homepage: false
 ---
 ## 校本部附近醫療院所
 

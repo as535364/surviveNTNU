@@ -5,6 +5,7 @@ icon:    bus46.svg
 alticon: bus
 id:      transport
 maintenance: true
+homepage: false
 ---
 
 ## 校車

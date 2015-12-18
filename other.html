@@ -17,7 +17,7 @@ scripts: [protip]
 			<h2>你想尋求什麼協助？</h2>
 			<hr>
 			{% for page in site.references %}
-				{% if page.hide != true and page.homepage == true %}
+				{% if page.hide != true and page.homepage == false %}
 				<div>
 					<a href="{{ page.url }}">
 						<img src="/images/{{ page.icon }}" alt="{{ page.alticon}} icon" width="50" height="50" />
@@ -25,26 +25,6 @@ scripts: [protip]
 					</a>
 				</div>
 				{% endif %}
-			{% endfor %}
-			<div>
-				<a href="/other.html">
-					<img src="/images/play45.svg" alt="others" width="50" height="50" />
-					其他文件
-				</a>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div id="favs" class="select">
-			<h2>常用連結</h2>
-			<hr>
-			{% for item in site.data.favs %}
-			<div>
-				<a href="{{ item.link }}">
-					<img src="/images/{{ item.image }}" alt="{{ item.name }}的 icon" width="50" height="50" >
-					{{ item.name }}
-				</a>
-			</div>
 			{% endfor %}
 		</div>
 	</div>

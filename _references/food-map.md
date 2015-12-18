@@ -5,6 +5,7 @@ icon:    placeholder8.svg
 alticon: bus
 id:      food-map
 maintenance:    true
+homepage: false
 ---
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=zRos_7YRoPcM.kqo-P9poGfdM" width="640" height="480"></iframe>
