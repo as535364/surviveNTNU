@@ -11,6 +11,11 @@ maintenance:    true
 
 # 介紹
 * [Google My Map 地圖](https://www.google.com/maps/d/edit?mid=zRos_7YRoPcM.kqo-P9poGfdM&usp=sharing)
+* 不論是自薦或是推薦，歡迎來幫忙介紹附近的商家，你可以提供最推薦的菜名，或是其他部落格寫的食記！！
+
+
+
+<!--
 * 潛力：Google Map API 應用
 
 ## 老農夫
@@ -374,3 +379,5 @@ maintenance:    true
 ## 印度拉茶
 
 ## 酒肉朋友 燒烤私房菜 東門店
+
+-->
