@@ -25,6 +25,10 @@ body {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
+
+	@media #{$s-sc} {
+		background-attachment: scroll;
+	}
 }
 
 header {
@@ -118,8 +122,8 @@ footer {
 			font-size: 1.5rem;
 		}
 		@media #{$s-sc} {
-			top: 25vh;
-			margin: 0 0 15rem;
+			top: 15vh;
+			margin: 0 0 100px;
 			line-height: 2rem;
 			font-size: 1.5rem;
 		}
@@ -155,6 +159,10 @@ footer {
 				width: 40rem;
 				border: 1px solid #0CFFA9;
 				cursor: text;
+
+				@media #{$s-sc} {
+					width: 13rem;
+				}
 			}
 		}
 	}
@@ -168,17 +176,23 @@ footer {
 			color: #fff;
 			font-size: 1.5rem;
 			text-decoration: none;
+
+			@media #{$s-sc} {
+				font-size: 1rem;
+			}
 		}
 
 		> a {
 			@extend .tip;
 
-			&:hover {
-				&::before {
-					content: ">>> ";
-				}
-				&::after {
-					content: " <<<";
+			@media #{$l-sc} {
+				&:hover {
+					&::before {
+						content: ">>> ";
+					}
+					&::after {
+						content: " <<<";
+					}
 				}
 			}
 
@@ -216,6 +230,11 @@ footer {
 				padding: 0;
 				border-radius: 10%;
 				box-shadow: 5px 5px 0 #ccc;
+
+				@media #{$s-sc} {
+					border-radius: 0;
+				}
+
 				&.hide {
 					display: none;
 				}
@@ -237,6 +256,7 @@ footer {
 				&.purple {
 					@include bg-gradient-t2b($purple-light, $purple-deep);
 				}
+
 				a {
 					display: block;
 					margin: 0;
@@ -247,6 +267,8 @@ footer {
 					font-size: 1.5rem;
 					text-align: left;
 					text-decoration: none;
+					
+
 					&:hover {
 						transition-duration: 0.5s;
 					}
@@ -254,6 +276,13 @@ footer {
 						display: block;
 						margin: .5rem auto 4rem;
 						text-align: center;
+						@media #{$s-sc} {
+							display: inline-block;
+							margin: 0;
+							width: 1.5rem;
+							height: 1.5rem;
+							vertical-align: top;
+						}
 					}
 				}
 			}
@@ -269,6 +298,9 @@ footer {
 			font-size: 2rem;
 			letter-spacing: 0.5rem;
 			font-weight: 400;
+			@media #{$s-sc} {
+				font-size: 1.7rem;
+			}
 		}
 		hr {
 			width: 80px;
@@ -287,6 +319,7 @@ footer {
 		@media #{$s-sc} {
 			padding: 5% 3%;
 			width: 94%;
+			font-size: 1rem;
 			text-align: center;
 		}
 
@@ -302,12 +335,20 @@ footer {
 			font-weight: 400;
 			border-top: 1px solid #000;
 			border-bottom: 1px solid #000;
+
+			@media #{$s-sc} {
+				font-size: 1.7rem;
+			}
 		}
 
 		h3 {
 			margin: 1rem 0;
 			font-size: 1.5rem;
 			font-weight: 400;
+
+			@media #{$s-sc} {
+				font-size: 1.35rem;
+			}
 
 			&::before {
 				content: "#";
@@ -400,10 +441,6 @@ footer {
 			border-collapse: collapse;
 			border-spacing: 0;
 
-			@media #{$s-sc} {
-				margin: 2rem auto;
-			}
-
 			tr th,
 			tr td {
 				padding: 1rem;
@@ -415,6 +452,15 @@ footer {
 			}
 			tr td {
 				background-color: #fff;
+			}
+			
+			@media #{$s-sc} {
+				margin: 2rem auto;
+          
+				tr th,
+				tr td {
+					padding: 1rem .2rem;
+				}       
 			}
 		}
 
@@ -455,9 +501,18 @@ footer {
 				padding: 0px 1rem 1rem 3rem;
 				text-align: left;
 
+				@media #{$s-sc} {
+					padding: 0 1.5rem 2rem 1.5rem;
+				}
+
 				&#markdown-toc {
 					display: none;
 				}
+			}
+
+			iframe {
+				max-width: 100%;
+				border: 1px solid #ccc;
 			}
 		}
 	}

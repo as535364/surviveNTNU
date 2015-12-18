@@ -3,6 +3,8 @@ baseurl: ""
 markdown: kramdown
 redcarpet:
     extensions: ["tables"]
+gems:
+  - jekyll-coffeescript
 
 collections:
   references:
