@@ -1,5 +1,6 @@
 ---
-title:   YouBike
+title:	YouBike
+icon:	bike15.svg
 scripts: [youbike]
 ---
 
