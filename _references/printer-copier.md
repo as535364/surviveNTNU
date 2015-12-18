@@ -1,5 +1,6 @@
 ---
 title: 印表與影印
+icon:  paper6.svg
 ---
 
 ## 711

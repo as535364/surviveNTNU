@@ -1,7 +1,7 @@
 ---
 layout:  page
 title:   食物地圖
-icon:    bus46.svg
+icon:    placeholder8.svg
 alticon: bus
 id:      food-map
 maintenance:    true

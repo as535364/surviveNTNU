@@ -1,5 +1,6 @@
 ---
 title: 校務行政系統
+icon:  manager3.svg
 maintenance: true
 ---
 
