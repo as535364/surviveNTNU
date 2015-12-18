@@ -73,6 +73,12 @@ scripts: [protip]
 			}
 		}
 
+		$("#search").keypress(function(e){
+			code = (e.keyCode ? e.keyCode : e.which);
+			if (code == 13)
+				$("html, body").animate({scrollTop: $(".select").offset().top}, 600);
+		});
+
 		if (/msie/i.test(navigator.userAgent))	//ie
 			document.getElementById('search').onpropertychange = searchbar_changed;
 		else
