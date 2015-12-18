@@ -123,20 +123,38 @@ footer {
 			line-height: 2rem;
 			font-size: 1.5rem;
 		}
-		#down_btn {
-			display: inline-block;
+		.search_bar {
 			position: relative;
-			top: 3rem;
-			padding: 0.5rem 1rem;
-			letter-spacing: 0.5rem;
+			top: 4rem;
+			padding: .5rem;
+			width: 5rem;
 			font-size: 1.5rem;
+			text-align: center;
+			background-color: #0CFFA9;
+			color: #fff;
 			border: 1px solid #fff;
+			transition-duration: .3s;
 			cursor: pointer;
-			background-color: #0cffa9;
-			&:hover {
+
+			&::-webkit-input-placeholder {
+				color: #fff;
+			}
+			&:-moz-placeholder {
+				color: #fff;
+			}
+			&::-moz-placeholder {
+				color: #fff;
+			}
+			&:-ms-input-placeholder {
+				color: #fff;
+			}
+
+			&:focus {
 				background-color: #fff;
-				color: #0cffa9;
-				transition-duration: 0.5s;
+				color: #343434;
+				width: 40rem;
+				border: 1px solid #0CFFA9;
+				cursor: text;
 			}
 		}
 	}
@@ -198,6 +216,9 @@ footer {
 				padding: 0;
 				border-radius: 10%;
 				box-shadow: 5px 5px 0 #ccc;
+				&.hide {
+					display: none;
+				}
 				&.red {
 					@include bg-gradient-t2b($red-light, $red-deep);
 				}

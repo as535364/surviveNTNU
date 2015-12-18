@@ -6,7 +6,7 @@ scripts: [protip]
 
 	<div class="slogan">
 		<p>由學生建立、為學生設計的非官方師大生存手冊。</p>
-		<div id="down_btn">開始閱讀</div>
+		<input type="text" class="search_bar" placeholder="搜尋" id="search">
 	</div>
 
 	<!-- 名字應該更廣泛一點 因為這邊不一定是新聞 -->
@@ -44,17 +44,40 @@ scripts: [protip]
 	</div>
 </div>
 
+<script src="https://raw.githubusercontent.com/krisk/fuse/master/src/fuse.min.js" ></script>
 <script type="text/javascript">
 	$(document).ready(function() {
-		$("#down_btn").on('click', function(event) {
-			$("html, body").animate({scrollTop: $(".select").offset().top}, 600);
-		});
-		colors = ["red", "blue", "purple", "yellow", "green", "orange"];
-		$(".select > div").toArray().forEach( function(div, i, divs) {
+		var colors = ["red", "blue", "purple", "yellow", "green", "orange"];
+		var squares = $(".select > div");
+		squares.toArray().forEach( function(div, i, divs) {
 			do {
-				div.className = colors[Math.floor(Math.random() * 6)];
+				div.className = colors[parseInt(Math.random() * 6)];
 			}
 			while(i > 0 && div.className === divs[i-1].className)
 		});
+
+		function searchbar_changed() {
+			var search_str = $('.search_bar').val();
+
+			var f = new Fuse(squares.toArray(), {keys: ['innerHTML', 'textContent']});
+
+			var result = f.search(search_str);
+
+			if(search_str.length === 0)
+				squares.removeClass('hide');
+			else {
+				squares.addClass("hide");
+				result.forEach( function(div) {
+					$(div).removeClass("hide");
+				});
+			}
+		}
+
+		if (/msie/i.test(navigator.userAgent))	//ie
+			document.getElementById('search').onpropertychange = searchbar_changed;
+		else
+			document.getElementById('search').addEventListener("input", searchbar_changed, false);
+
 	});
 </script>
+
