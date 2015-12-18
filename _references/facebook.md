@@ -53,7 +53,7 @@ alticon: facebook
 ------- | ---
 [工業教育學系](https://www.facebook.com/ntnuiestudent?ref=ts&fref=ts)|
 [科技應用與人力資源發展學系](https://www.facebook.com/NTNUTAHRD.A?ref=ts&fref=ts)|[科技應用與人力資源發展學系](https://www.facebook.com/groups/NTNU.TAHRD/?ref=ts&fref=ts)
-圖文傳播學系|
+[圖文傳播學系](https://www.facebook.com/2014ntnugac)|[圖文傳播學系系友會](https://www.facebook.com/groups/gacfriends/)
  |[機電工程學系](https://www.facebook.com/groups/201079729945147/?ref=ts&fref=ts)
 電機工程學系|
 
