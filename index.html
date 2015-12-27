@@ -20,7 +20,7 @@ scripts: [protip]
 				{% if page.hide != true and page.homepage == true %}
 				<div>
 					<a href="{{ page.url }}">
-						<img src="/images/{{ page.icon }}" alt="{{ page.alticon}} icon" width="50" height="50" />
+						<img src="/images/icons/{{ page.icon }}" alt="{{ page.alticon}} icon" width="50" height="50" />
                         {{ page.title }}
 					</a>
 				</div>
@@ -28,7 +28,7 @@ scripts: [protip]
 			{% endfor %}
 			<div>
 				<a href="/other.html">
-					<img src="/images/play45.svg" alt="others" width="50" height="50" />
+					<img src="/images/icons/play45.svg" alt="others" width="50" height="50" />
 					其他文件
 				</a>
 			</div>
@@ -41,7 +41,7 @@ scripts: [protip]
 			{% for item in site.data.favs %}
 			<div>
 				<a href="{{ item.link }}">
-					<img src="/images/{{ item.image }}" alt="{{ item.name }}的 icon" width="50" height="50" >
+					<img src="/images/icons/{{ item.image }}" alt="{{ item.name }}的 icon" width="50" height="50" >
 					{{ item.name }}
 				</a>
 			</div>
@@ -92,4 +92,3 @@ scripts: [protip]
 
 	});
 </script>
-

@@ -1,7 +1,7 @@
 ---
 layout:  page
 title:   資訊中心服務
-icon:    itcenter.svg
+icon:    call36.svg
 alticon: itcenter
 homepage: false
 ---
