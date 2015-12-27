@@ -5,8 +5,6 @@ icon:    parking19.svg
 alticon: foo
 id:      foo
 maintenance:    true
-homepage: false
-order: 91
 ---
 
 TO-DO: 加上機車、腳踏車等停車資訊

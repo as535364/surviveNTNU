@@ -16,15 +16,18 @@ scripts: [protip]
 		<div id="lists" class="select">
 			<h2>你想尋求什麼協助？</h2>
 			<hr>
-			{% for page in site.references %}
-				{% if page.hide != true and page.homepage == true %}
-				<div>
-					<a href="{{ page.url }}">
-						<img src="/images/icons/{{ page.icon }}" alt="{{ page.alticon}} icon" width="50" height="50" />
-                        {{ page.title }}
-					</a>
-				</div>
-				{% endif %}
+            {% for order in site.data.order.homepage %}
+                {% for page in site.references %}
+                {% assign fname = page.relative_path | replace: '_references/', '' | replace: '.md', '' %}
+                    {% if fname == order %}
+                    <div>
+                        <a href="{{ page.url }}">
+                            <img src="/images/icons/{{ page.icon }}" alt="{{ page.alticon}} icon" width="50" height="50" />
+                            {{ page.title }}
+                        </a>
+                    </div>
+                    {% endif %}
+                {% endfor %}
 			{% endfor %}
 			<div>
 				<a href="/other.html">

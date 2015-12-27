@@ -3,8 +3,6 @@ layout:  page
 title:   資訊中心服務
 icon:    call36.svg
 alticon: itcenter
-homepage: false
-order: 93
 ---
 
 ### 校園軟體下載/安裝

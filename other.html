@@ -16,26 +16,22 @@ scripts: [protip]
 		<div id="lists" class="select">
 			<h2>你想尋求什麼協助？</h2>
 			<hr>
-            {% assign refs = site.references | sort: 'order' %}
-			{% for page in refs %}
-				{% if page.hide != true and page.homepage == false %}
-				<div>
-					<a href="{{ page.url }}">
-						<img src="/images/icons/{{ page.icon }}" alt="{{ page.alticon}} icon" width="50" height="50" />
-                        {{ page.title }}
-					</a>
-				</div>
-				{% endif %}
+            {% for order in site.data.order.other %}
+                {% for page in site.references %}
+                {% assign fname = page.relative_path | replace: '_references/', '' | replace: '.md', '' %}
+                    {% if fname == order %}
+                    <div>
+                        <a href="{{ page.url }}">
+                            <img src="/images/icons/{{ page.icon }}" alt="{{ page.alticon}} icon" width="50" height="50" />
+                            {{ page.title }}
+                        </a>
+                    </div>
+                    {% endif %}
+                {% endfor %}
 			{% endfor %}
 		</div>
 	</div>
 </div>
-{% assign ps = site.pages | sort: 'navo' %}
-{% for p in ps %}
-  {% if p.nav == true %}
-    <a href="{{ p.permalink }}">{{ p.title }}</a>
-  {% endif %}
-{% endfor %}
 
 <script src="https://raw.githubusercontent.com/krisk/fuse/master/src/fuse.min.js" ></script>
 <script type="text/javascript">
