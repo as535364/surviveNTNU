@@ -3,6 +3,7 @@ title: 校務行政系統
 icon:  manager3.svg
 maintenance: true
 homepage: false
+order: 94
 ---
 
 ### 如何查詢學期成績？

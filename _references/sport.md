@@ -4,6 +4,7 @@ title:   運動場地租借
 icon:    dumbbell7.svg
 alticon: /sport/
 homepage: false
+order: 89
 ---
 
 * TOC

@@ -3,6 +3,7 @@ layout:		page
 title:		師大 Wifi 連線
 icon:		wirelessinternet11.svg
 homepage: false
+order: 99
 ---
 
 # 師大所提供之 Wifi 名稱一覽表：

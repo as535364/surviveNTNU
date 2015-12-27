@@ -6,6 +6,7 @@ alticon: bus
 id:      bus
 homepage: true
 scripts: [bus]
+order: 98
 ---
 
 ### 下一班車

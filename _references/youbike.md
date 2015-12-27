@@ -3,6 +3,7 @@ title:	YouBike
 icon:	bike15.svg
 scripts: [youbike]
 homepage: true
+order: 86
 ---
 
 在圖書館校區門口和公館校區門口各分別有一站 YouBike，圖書館校區的位置在正門口出來右轉，公館的在正門口出去右轉。
