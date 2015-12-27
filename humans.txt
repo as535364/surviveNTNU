@@ -1,25 +1,46 @@
-/* TEAM */
-  Dev: Rex Yuan (@RexYuan)
-  Site: rexy.xyz
-  Location: Taipei
+/* DEVS */
+    Rex Yuan (@RexYuan)
+    rexy.xyz
+    Taipei
+    -
+    Wildsky Fann (@wi1d5ky)
+    wildsky.cc
+    Taipei
 
-  Dev: Wildsky Fann (@wi1d5ky)
-  Site: wildsky.cc
-  Location: Taipei
-
-  Editor: 朱翊文 (@WilliamSnail)
-  Location: Taipei
-
-/* THANKS */
-  教室租借, 食物地圖: 張勝閎 (@joey6504)
-  標誌設計, 攝影: 蔡沛方 (@aliyatsai)
-  各學系 FB 社團、粉專: 林于文 (@linyuwen)
-  轉學生疑難排解: 黃昱翔 (@a602041117)
-  資訊中心相關資訊, 選課系統技術問題: 陳昱安 (@chuan06310631)
-  醫療資訊: 王至恩
+/* CONTRIBUTORS */
+    張勝閎 (@joey6504)
+    蔡沛方 (@aliyatsai)
+    林于文 (@linyuwen)
+    黃昱翔 (@a602041117)
+    陳昱安 (@chuan06310631)
+    朱翊文 (@WilliamSnail)
 
 /* SITE */
-  Standards: HTML5
-  Language: Chinese
-  Components: Jekyll
-  Host: GitHub Pages
+    Standards: HTML5
+    Language: Traditional Chinese
+    Components: Jekyll
+    Host: GitHub Pages
+
+/* THANKS */
+    /images/icons/bike15.svg: Icon made by Freepik from www.flaticon.com is licensed under CC BY 3.0
+    /images/icons/bus46.svg: Icon made by Freepik from www.flaticon.com is licensed under CC BY 3.0
+    /images/icons/businessman239.svg: Icon made by Freepik from www.flaticon.com is licensed under CC BY 3.0
+    /images/icons/current.svg: Icon made by Freepik from www.flaticon.com is licensed under CC BY 3.0
+    /images/icons/dumbbell7.svg: Icon made by Freepik from www.flaticon.com is licensed under CC BY 3.0
+    /images/icons/facebook29.svg: Icon made by SimpleIcon from www.flaticon.com is licensed under CC BY 3.0
+    /images/icons/hardbound.svg: Icon made by SimpleIcon from www.flaticon.com is licensed under CC BY 3.0
+    /images/icons/home63.svg: Icon made by HevnGrafix from www.flaticon.com is licensed under CC BY 3.0
+    /images/icons/call36.svg: Icon made by Freepik from www.flaticon.com is licensed under CC BY 3.0
+    /images/icons/link23.svg: Icon made by SimpleIcon from www.flaticon.com is licensed under CC BY 3.0
+    /images/icons/living1.svg: Icon made by Freepik from www.flaticon.com is licensed under CC BY 3.0
+    /images/icons/mail59.svg Icon made by SimpleIcon from www.flaticon.com is licensed under CC BY 3.0
+    /images/icons/manager3.svg: Icon made by Freepik from www.flaticon.com is licensed under CC BY 3.0
+    /images/icons/medical107.svg: Icon made by Freepik from www.flaticon.com is licensed under CC BY 3.0
+    /images/icons/paper6.svg: Icon made by Yannick from www.flaticon.com is licensed under CC BY 3.0
+    /images/icons/parking19.svg: Icon made by Freepik from www.flaticon.com is licensed under CC BY 3.0
+    /images/icons/pen38.svg: Icon made by Freepik from www.flaticon.com is licensed under CC BY 3.0
+    /images/icons/placeholder8.svg: Icon made by Freepik from www.flaticon.com is licensed under CC BY 3.0
+    /images/icons/play45.svg: Icon made by Appzgear from www.flaticon.com is licensed under CC BY 3.0
+    /images/icons/student3.svg: Icon made by OCHA from www.flaticon.com is licensed under CC BY 3.0
+    /images/icons/users81.svg: Icon made by Freepik from www.flaticon.com is licensed under CC BY 3.0
+    /images/icons/wirelessinternet11.svg: Icon made by Icomoon from www.flaticon.com is licensed under CC BY 3.0
