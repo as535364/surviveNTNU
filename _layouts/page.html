@@ -3,25 +3,37 @@ layout: default
 ---
 <div class="page">
 
-	<div class="title">
-		<h2>{{ page.title }}</h2>
-        {% if page.icon %}
-		<img src="{{ site.baseurl }}/images/icons/{{ page.icon }}" alt="bus icon" width="50" height="50"/>
-        {% endif %}
-		<hr>
-	</div>
+  <div class="title">
+    <h2>{{ page.title }}</h2>
+      {% if page.icon %}
+    <img src="{{ site.baseurl }}/images/icons/{{ page.icon }}" alt="bus icon" width="50" height="50"/>
+      {% endif %}
+    <hr>
+  </div>
 
-	<article>
+  <article>
 
-		<div id="{{ page.id }}">
-			{{ content }}
-		</div>
+    <div id="{{ page.id }}">
+      {{ content }}
+    </div>
 
-		<div id="disqus_thread">
-			<script type="text/javascript" src="//surviventnu.disqus.com/embed.js"></script>
-			<noscript>請啟用 JavaScript 以便在 <a href="https://disqus.com/?ref_noscript" rel="nofollow">disqus</a> 留言。</noscript>
-		</div>
+    <div id="comment_area" onclick="loadDisqus()">
+      <label for="comment">留言</label>
+      <input type="checkbox" name="comment" id="comment" >
+      <div id="disqus_thread">
+        <script id="load_disqus" type="text/javascript"></script>
+        <noscript>請啟用 JavaScript 以便在 <a href="https://disqus.com/?ref_noscript" rel="nofollow">disqus</a> 留言。</noscript>
+      </div>
+    </div>
 
-	</article>
+    <script>
+      $("#comment").removeAttr('checked');
+      var loadDisqus = function() {
+        $("#comment_area").removeAttr('onclick');
+        $("#load_disqus").prop('src', "https://surviventnu.disqus.com/embed.js");
+      };
+    </script>
+
+  </article>
 
 </div>
