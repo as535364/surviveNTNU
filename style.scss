@@ -74,7 +74,7 @@ footer {
 
 	ul {
 		padding: 0;
-		
+
 		li {
 			display: inline-block;
 			padding: 0;
@@ -170,7 +170,7 @@ footer {
 
 	.news {
 		background: linear-gradient(90deg, $red-deep 10%, $red-light 90%);
-		
+
 		> .tip {
 			display: block;
 			padding: 1rem;
@@ -275,7 +275,7 @@ footer {
 					text-shadow: 1px 1px 0 #888;
 					text-align: left;
 					text-decoration: none;
-					
+
 					@media #{$s-sc} {
 						padding: 1rem;
 						font-size: 1.25rem;
@@ -327,6 +327,27 @@ footer {
 		color: #343434;
 		text-align: left;
 		font-size: 1.2rem;
+
+    #comment_area {
+      label {
+        display: block;
+        margin: 4rem 0 1rem;
+        padding: .5rem;
+        text-align: center;
+        background: #999;
+        color: #fff;
+        border: 3px double #fff;
+      }
+      input {
+        display:none;
+      }
+      #disqus_thread {
+        display: none;
+      }
+      #comment:checked ~ #disqus_thread {
+        display: block;
+      }
+    }
 
 		@media #{$s-sc} {
 			padding: 5% 3%;
@@ -464,14 +485,14 @@ footer {
 			tr td {
 				background-color: #fff;
 			}
-			
+
 			@media #{$s-sc} {
 				margin: 2rem auto;
-          
+
 				tr th,
 				tr td {
 					padding: 1rem .2rem;
-				}       
+				}
 			}
 		}
 
@@ -530,7 +551,6 @@ footer {
 }
 
 #disqus_thread {
-	margin-top: 4rem;
 	border-top: 3px dashed #ccc;
 	padding: 3rem 2.5rem 2.5rem;
 	@media #{$s-sc} {
