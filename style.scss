@@ -20,13 +20,14 @@ body {
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	background: url("{{ site.baseurl }}/images/main-bg.jpg") fixed no-repeat center center;
+	background: url("{{ site.baseurl }}/images/main-bg_l.jpg") fixed no-repeat center center;
 	background-size: cover;
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
 
 	@media #{$s-sc} {
+	  background: url("{{ site.baseurl }}/images/main-bg_s.jpg") fixed no-repeat top center;
 		background-attachment: scroll;
 	}
 }
