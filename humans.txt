@@ -44,3 +44,4 @@
     /images/icons/student3.svg: Icon made by OCHA from www.flaticon.com is licensed under CC BY 3.0
     /images/icons/users81.svg: Icon made by Freepik from www.flaticon.com is licensed under CC BY 3.0
     /images/icons/wirelessinternet11.svg: Icon made by Icomoon from www.flaticon.com is licensed under CC BY 3.0
+    /images/icons/write-board.svg: Icons made by Freepik from www.flaticon.com is licensed by CC 3.0
