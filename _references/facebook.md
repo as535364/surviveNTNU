@@ -88,14 +88,21 @@ alticon: facebook
 ------- | ---
 [企業管理學系](https://www.facebook.com/ntnubaba?ref=ts&fref=ts)|
 
+--------
+
+# 學生會
+
+粉絲專頁 | 社團
+------- | ---
+[學生會](https://www.facebook.com/ntnustua/)|
+[學生議會](https://www.facebook.com/ntnustudentcongress)|
+[學生會學生評議會](https://www.facebook.com/ntnusj)|
+[學生會選舉委員會](https://www.facebook.com/ntnuvote)|
+
 # 社團
 
 粉絲專頁 | 社團
 ------- | ---
-[學生會](https://www.facebook.com/NTNUstudentA)|
-[學生議會](https://www.facebook.com/ntnustudentcongress)|
-[學生會學生評議會](https://www.facebook.com/ntnusj)|
-[學生會選舉委員會](https://www.facebook.com/ntnuvote)|
 [師大青年社](https://www.facebook.com/NTNU.Youth)|
 [人文學社](https://www.facebook.com/ntnuhumanity)|
  |[人文學社](https://www.facebook.com/groups/ntnuhumanity/)
