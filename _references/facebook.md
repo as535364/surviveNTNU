@@ -4,6 +4,9 @@ title:   FB 社團、粉專
 icon:    facebook29.svg
 alticon: facebook
 ---
+
+小技巧：可以按 ctrl/command + f 直接搜尋想找的文字哦～
+
 # 學系
 
 ## 教育學院
