@@ -5,7 +5,7 @@ icon:    facebook29.svg
 alticon: facebook
 ---
 
-小技巧：可以按 ctrl/command + f 直接搜尋想找的文字哦～
+小技巧：可以按 <kbd>ctrl</kbd>/<kbd>command</kbd> + <kbd>f</kbd> 直接搜尋想找的文字哦～
 
 # 學系
 
