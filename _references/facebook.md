@@ -4,6 +4,9 @@ title:   FB 社團、粉專
 icon:    facebook29.svg
 alticon: facebook
 ---
+
+小技巧：可以按 <kbd>ctrl</kbd>/<kbd>command</kbd> + <kbd>f</kbd> 直接搜尋想找的文字哦～
+
 # 學系
 
 ## 教育學院
@@ -85,14 +88,21 @@ alticon: facebook
 ------- | ---
 [企業管理學系](https://www.facebook.com/ntnubaba?ref=ts&fref=ts)|
 
+--------
+
+# 學生會
+
+粉絲專頁 | 社團
+------- | ---
+[學生會](https://www.facebook.com/ntnustua/)|
+[學生議會](https://www.facebook.com/ntnustudentcongress)|
+[學生會學生評議會](https://www.facebook.com/ntnusj)|
+[學生會選舉委員會](https://www.facebook.com/ntnuvote)|
+
 # 社團
 
 粉絲專頁 | 社團
 ------- | ---
-[學生會](https://www.facebook.com/NTNUstudentA)|
-[學生議會](https://www.facebook.com/ntnustudentcongress)|
-[學生會學生評議會](https://www.facebook.com/ntnusj)|
-[學生會選舉委員會](https://www.facebook.com/ntnuvote)|
 [師大青年社](https://www.facebook.com/NTNU.Youth)|
 [人文學社](https://www.facebook.com/ntnuhumanity)|
  |[人文學社](https://www.facebook.com/groups/ntnuhumanity/)
