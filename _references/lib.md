@@ -110,3 +110,29 @@ B1普通閱覽室|18:00~24:00|18:00~24:00
 Ps:師大圖書館各分館內(含文薈廳)皆有販賣師大專屬禮品和相關文具。
 
 ◎以上所有訊息以圖書館官方網站發布為準
+
+## 本部圖書館知名雜誌位置
+
+架數（三樓） | 雜誌名稱
+3  | The Atlantic / BBC Wildlife
+7  | Economist
+8  | Esquire
+10 | Fortune
+11 | Harvard Business Review
+28 | National Geographic
+35 | Scientific American
+37 | Sports Illustrated
+39 | Time
+40 | Variety
+1  | BBC知識
+2  | 科學人
+3  | 康健
+8  | 風球詩
+9  | PC Home
+10 | 數位時代
+15 | 天下雜誌 / 哈佛商業評論 / 商業周刊
+23 | 30雜誌
+26 | 世界電影
+30 | 遠見雜誌 / 時報週刊
+33 | 國家地理雜誌
+36 | Advanced彭蒙惠英語
