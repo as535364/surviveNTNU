@@ -15,6 +15,11 @@ scripts: [protip]
 	<div class="container">
 		<div id="lists" class="select">
 			<h2>你想尋求什麼協助？</h2>
+            <form action="https://iportal.ntnu.edu.tw/login.do" method="post" name="login">
+                <input name="muid" type="text" />
+                <input name="mpassword" type="password" />
+                <input name="inputsubmit1" type="submit" value="登入 iPortal" />
+            </form>
 			<hr>
             {% for order in site.data.order.homepage %}
                 {% for page in site.references %}
