@@ -6,5 +6,9 @@
     {
         "tip": "你知道可以透過 Gmail 來使用師大信箱嗎？",
         "link": "http://webmail.ntnu.edu.tw/wmail/faq/ntnu2gmail.htm"
+    },
+    {
+        "tip": "先別管師大信箱了，你聽過 Gapps for NTNU 嗎？",
+        "link": "http://webmail.ntnu.edu.tw/wmail/faq/openGapps.htm"
     }
 ]
