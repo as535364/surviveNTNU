@@ -1,11 +1,11 @@
 /* DEVS */
     Rex Yuan (@RexYuan)
     rexy.xyz
-    Taipei
+    Taipei, Taiwan
     -
-    Wildsky Fann (@wi1d5ky)
-    wildsky.cc
-    Taipei
+    Wildsky Fann (@wildskyf)
+    blog.wildsky.cc
+    Taipei, Taiwan
 
 /* CONTRIBUTORS */
     張勝閎 (@joey6504)
@@ -17,7 +17,7 @@
 
 /* SITE */
     Standards: HTML5
-    Language: Traditional Chinese
+    Language: zh_TW (Traditional Chinese)
     Components: Jekyll
     Host: GitHub Pages
 
