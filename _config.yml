@@ -1,5 +1,6 @@
 title: SurviveNTNU
-baseurl: ""
+baseurl: "/surviveNTNU"
+website_url: "https://communityNTNU.github.io"
 markdown: kramdown
 redcarpet:
     extensions: ["tables"]

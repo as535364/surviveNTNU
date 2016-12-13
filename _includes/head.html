@@ -3,17 +3,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="{{ site.baseurl }}/style.css" rel="stylesheet"/>
     <title>{{ page.title }}{% if page.title %} &mdash; {% endif %}{{site.title}}</title>
-    <meta property="og:url" content="http://survive.ntnu.com.tw/"/>
-    <meta property="og:image" content="http://survive.ntnu.com.tw/images/og_logo.png"/>
+    <meta property="og:url" content="{{ site.website_url }}/"/>
+    <meta property="og:image" content="{{ site.baseurl | prepend: site.website_url }}/images/og_logo.png"/>
     <meta property="og:title" content="Survive NTNU"/>
     <meta property="og:description" content="非官方師大生存手冊"/>
     <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
     <link rel="icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
-    <link rel="author" href="/humans.txt"/>
+    <link rel="author" href="{{ site.baseurl }}/humans.txt"/>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js" charset="utf-8"></script>
-    <script src="/javascript/ga.js"></script>
+    <script src="{{ site.baseurl }}/javascript/ga.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     {% for s in page.scripts %}
-    <script src="/javascript/{{ s }}.js" defer></script>
+    <script src="{{ site.baseurl }}/javascript/{{ s }}.js" defer></script>
     {% endfor %}
 </head>
