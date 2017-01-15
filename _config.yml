@@ -1,6 +1,6 @@
 title: SurviveNTNU
 baseurl: "/surviveNTNU"
-website_url: "https://communityNTNU.github.io"
+website_url: "https://survive.shida.us"
 markdown: kramdown
 redcarpet:
     extensions: ["tables"]
