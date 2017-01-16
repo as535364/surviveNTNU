@@ -1,5 +1,5 @@
 title: SurviveNTNU
-baseurl: "/surviveNTNU"
+baseurl: "/"
 website_url: "https://survive.shida.us"
 markdown: kramdown
 redcarpet:
