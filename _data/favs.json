@@ -30,9 +30,9 @@
 		"image": "users81.svg"
 	},
 	{
-		"name": "Moodle2",
-		"link": "https://moodle2.ntnu.edu.tw/",
-		"image": "users81.svg"
+		"name": "行事曆",
+		"link": "http://communityntnu.github.io/calendarNTNU",
+		"image": "calendar.svg"
 	},
 	{
 		"name": "馬上辦",
