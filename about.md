@@ -24,5 +24,4 @@ scripts: [get-reference-issues]
 ## 其他專案
 來看看我們其他的努力！
 
-* [Course NTNU](http://www.coursentnu.com/)：評價和查詢師大課程
-* [Calendar NTNU - 師大曆](http://calendar.ntnu.com.tw/)：師大人專用的行事曆
+* [Calendar NTNU - 師大曆](http://calendar.shida.us/)：師大人專用的行事曆
