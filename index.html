@@ -9,7 +9,6 @@ scripts: [protip]
 		<input type="text" class="search_bar" placeholder="搜尋" id="search">
 	</div>
 
-	<!-- 名字應該更廣泛一點 因為這邊不一定是新聞 -->
 	<div class="news" id="highlight-banner"></div>
 
 	<div class="container">
@@ -19,6 +18,11 @@ scripts: [protip]
                 <input name="muid" type="text" />
                 <input name="mpassword" type="password" />
                 <input name="inputsubmit1" type="submit" value="登入 iPortal" />
+            </form>
+			<form action="https://moodle2.ntnu.edu.tw/login/index.php" method="post" name="login">
+				<input name="username" type="text" />
+				<input name="password" type="password" />
+				<input type="submit" value="登入 Moodle 2" />
             </form>
 			<hr>
             {% for order in site.data.order.homepage %}
