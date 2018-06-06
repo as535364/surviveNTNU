@@ -4,7 +4,7 @@
     Taipei, Taiwan
     -
     Wildsky Fann (@wildskyf)
-    blog.wildsky.cc
+    blog.wildskyf.net
     Taipei, Taiwan
 
 /* CONTRIBUTORS */
